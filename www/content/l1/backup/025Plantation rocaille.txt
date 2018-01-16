@@ -1,0 +1,8 @@
+<h2>Redessiner votre jardin</h2>
+<p style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">Apr&egrave;s une &eacute;tude paysag&egrave;re de votre jardin, un choix d&eacute;fini de v&eacute;g&eacute;taux, d\'emplacements et de volumes, nos paysagistes&nbsp;r&eacute;aliseront selon votre d&eacute;sir :</span></span></p>
+<ul>
+    <li style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">l\'am&eacute;nagement de massifs, de rocailles </span></span></li>
+    <li style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">la plantation de haies </span></span></li>
+    <li style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">la plantations d\'arbres ou arbustes communs&nbsp;voire rares</span></span></li>
+</ul>
+<p style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: rgb(51,51,51)\">Vous souhaitez un sujet rare ou vous ignorez le nom, nous vous aiderons &agrave; le trouver.</span> </span></span><span style=\"color: rgb(51,51,51)\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><a href=\"contact.php\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">N\'h&eacute;sitez pas &agrave; nous en parler</span></span></a></span><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">.</span></span></span></span></p>

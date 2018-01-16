@@ -1,0 +1,240 @@
+
+body{background-color: #F5F5F5;}
+.txt1{font-size: 12px;font-family: Verdana,Arial;color: #333;}
+.allbody_htdtc{
+BORDER-LEFT:#EF9D00 3px inset;BORDER-TOP: #EF9D00 3px inset;BORDER-RIGHT:#EF9D00 3px inset; BORDER-BOTTOM:#EF9D00 3px inset;
+}
+.newsletter_htdtc {background-color: #FFF;       
+font-size: 11px;font-family: arial;color: #333;  
+BORDER:#3366CC 1px solid;                        
+}                                                
+.newsletter2_htdtc {background-color: #F5F5F5;   
+font-size: 11px;font-family: arial;color: #333;  
+BORDER:#3366CC 1px solid;                        
+}  
+.input_news_htdtc {
+background-color: #fff;font-family: arial,verdana; font-size: 11px; color: blue;font-weight: bold;border:orange 1px inset;
+
+}       
+.blue_htdtc {
+font-size: 12px;font-family: Arial;color: #333;
+}
+/* GESTION
+--------------------------------------------------------------------------------------------------*/
+.bdd_htdtc {
+font-size: 11px;font-family: Arial;color: #333;
+}
+.fieldprod {
+BORDER:orange 1px solid;
+}
+.prodlegend_htdtc{background-color: #F5F5F5;
+padding-top:4px;padding-bottom:6px;padding-right:2px;padding-left:2px;
+font-size: 12px;font-family: arial;color: ButtonText;
+border:orange 1px solid;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#996600,direction=135,strength=2);
+}
+.tblprod_htdtc {background-color: #CCCCCC;
+BORDER:#333333 1px outset;border-collapse:collapse;
+font-size: 10px;font-family: Arial;color: #333;
+}
+.tdprod_htdtc {background-color: #FFFFFF;
+BORDER:#666666 1px solid;border-collapse:collapse;
+font-size: 10px;font-family: Arial;color: #333;
+}
+.thprod_htdtc {background-color: #666666;
+BORDER:#333333 1px solid;border-collapse:collapse;
+font-size: 10px;font-family: Arial;color: #FFFFFF;font-weight:bold;text-align:left;
+}
+/* TXT
+--------------------------------------------------------------------------------------------------*/
+.infoss{font-family:courrier,tahoma,Arial,sans-serif; font-size: 11px; color: #666666;}
+.bdd_htdtc {
+font-size: 11px;font-family: Arial;color: #333;
+}
+.blue_htdtc {
+font-size: 12px;font-family: Arial;color: #333;
+}
+.firsthelp_htdtc {
+font-size: 15px;font-family: verdana,sans-serif;color: #333;text-align:justify;padding-left:5px;
+}
+.stylemenubtn_htdtc {
+BORDER:#3366CC 1px solid;
+background-color: #FFF;font-family:tahoma,sans-serif; font-size: 10px; color: #3366CC;
+font-weight:normal;
+text-decoration: none;
+padding-top:3px;padding-bottom:3px;padding-right:3px;padding-left:3px;font-weight:bold;
+}
+.pagename_htdtc{
+font-size: 20px;font-family: tahoma,verdana,arial;color: #333;letter-spacing:2px;
+
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/*FIELDSET
+--------------------------------------------------------------------------------------------------*/
+
+.fieldlegend_htdtc{background-color: #F5F5F5;
+padding-top:4px;padding-bottom:6px;padding-right:2px;padding-left:2px;
+font-size: 12px;font-family: arial;color: ButtonText;
+border: 1px outset;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=Buttonshadow,direction=135,strength=3);
+}
+
+.loginlegend_htdtc{
+font-family:Arial,sans-serif; font-size: 12px; color: #666;
+}
+
+.fieldborders_htdtc{
+border-left:transparent;border-right:transparent;border-top:transparent;border-bottom:transparent;
+}
+A.framelnk_htdtc:link,A.framelnk_htdtc:visited,A.framelnk_htdtc:active{
+font-family:arial,tahoma,sans-serif; font-size: 12px; color: #0033CC;
+font-weight:normal;text-decoration:underline;
+}
+A.framelnk_htdtc:hover {
+text-decoration:underline overline;
+}
+.lnkpopborders_htdtc{
+BORDER-LEFT:#EF9D00 1px outset;BORDER-TOP: #EF9D00 1px outset;BORDER-RIGHT:#EF9D00 1px outset; BORDER-BOTTOM:#EF9D00 1px outset;
+}
+
+
+
+/* ACTION LINKS - BUTTONS
+--------------------------------------------------------------------------------------------------*/
+A.link_htdtc:link,A.link_htdtc:visited,A.link_htdtc:active{
+font-family:verdana,sans-serif; font-size: 11px; color: #0033FF;
+font-weight:normal;text-decoration: underline;
+}
+A.link_htdtc:hover {
+text-decoration: underline overline;
+}
+
+A.bouton_htdtc:link,A.bouton_htdtc:visited,A.bouton_htdtc:active{
+background-color: ButtonFace;font-family: arial; font-size: 10px; color: ButtonText;
+font-weight:normal;
+border: 1px outset;text-decoration: none;
+padding-top:1px;padding-bottom:1px;padding-right:3px;padding-left:3px;
+
+}
+A.bouton_htdtc:hover {
+color: HighlightText;text-decoration: none; background-color: Highlight;
+padding-top:1px;padding-bottom:1px;padding-right:3px;padding-left:3px;
+BORDER:1px inset;
+}
+
+
+.insert_htdtc {background-color: #FFF;
+border: 1px outset;
+font-size: 13px;font-family: arial;color: ButtonText;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=Buttonshadow,direction=135,strength=3);
+}
+
+
+A.myfolders_htdtc:link,A.myfolders_htdtc:visited,A.myfolders_htdtc:active{
+width=100px;
+background-color: ButtonFace;font-family:verdana,sans-serif; font-size: 11px; color: ButtonText;
+font-weight:normal;text-decoration: none;border: 1px outset;
+padding-top:1px;padding-bottom:1px;padding-right:3px;padding-left:3px;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=Buttonshadow,direction=135,strength=3);
+}
+A.myfolders_htdtc:hover {
+color: HighlightText;text-decoration: none; background-color: Highlight;
+padding-top:1px;padding-bottom:1px;padding-right:3px;padding-left:3px;
+BORDER: Highlight 1px solid;
+}
+
+.select_htdtc {
+color: HighlightText;text-decoration: none; background-color: Highlight;
+
+}
+
+A.flagbouton_htdtc:link,A.flagbouton_htdtc:visited,A.flagbouton_htdtc:active{
+border: 1px outset;text-decoration: none;
+}
+A.flagbouton_htdtc:hover {
+BORDER:1px inset;
+}
+
+
+
+/* - OPTIONS LINKS -
+--------------------------------------------------------------------------------------------------*/
+A.LookA_htdtc:link,A.LookA_htdtc:visited,A.LookA_htdtc:active{width=100px;
+font-family:tahoma,sans-serif; font-size: 10px;color: #fff;text-decoration: none;
+background-color: #333;BORDER:#000 1px solid;padding-left:5px;}
+A.LookA_htdtc:hover {
+text-decoration: none;letter-spacing:2px;text-transform : uppercase;
+}
+A.LookE_htdtc:link,A.LookE_htdtc:visited,A.LookE_htdtc:active{width=100px;
+font-family:tahoma,sans-serif; font-size: 10px;color: #FFFF66;text-decoration: none;
+background-color: #505F70;BORDER:#000 1px solid;padding-left:5px;}
+A.LookE_htdtc:hover {
+text-decoration: none;letter-spacing:2px;text-transform : uppercase;
+}
+A.LookC_htdtc:link,A.LookC_htdtc:visited,A.LookC_htdtc:active{width=100px;
+font-family:tahoma,sans-serif; font-size: 10px;color: #6666FF;text-decoration: none;background-color: #F5F5F5;
+BORDER:#000 1px solid;padding-left:5px;}
+A.LookC_htdtc:hover {
+text-decoration: none;letter-spacing:2px;text-transform : uppercase;
+}
+A.LookP_htdtc:link,A.LookP_htdtc:visited,A.LookP_htdtc:active{width=100px;
+font-family:tahoma,sans-serif; font-size: 10px;color: #FFF;text-decoration: none;background-color: #993333;
+BORDER:#000 1px solid;padding-left:5px;}
+A.LookP_htdtc:hover {
+text-decoration: none;letter-spacing:2px;text-transform : uppercase;
+}
+A.LookW_htdtc:link,A.LookW_htdtc:visited,A.LookW_htdtc:active{width=100px;
+font-family:tahoma,sans-serif; font-size: 10px;color: #666;text-decoration: none;background-color: #FFF;
+BORDER:#000 1px solid;padding-left:5px;}
+A.LookW_htdtc:hover {
+text-decoration: none;letter-spacing:2px;text-transform : uppercase;
+}
+
+/* - MISCellaneous -
+--------------------------------------------------------------------------------------------------*/
+.shadow_htdtc{
+filter:progid:DXImageTransform.Microsoft.Shadow(color=Buttonshadow,direction=135,strength=2);
+}
+.redshadow_htdtc{
+filter:progid:DXImageTransform.Microsoft.Shadow(color=Red,direction=135,strength=2);
+}
+.CltWindowBorders_htdtc {
+BORDER-LEFT:#999 1px solid;BORDER-TOP: #999 1px solid;BORDER-RIGHT:#999 1px solid; BORDER-BOTTOM:#999 1px solid;
+}
+
+/*REAL FORM */
+.formbouton_htdtc {
+font-size: 9px;
+}
+.input_uploadfile_htdtc {
+background-color: #fff;font-family: arial,verdana; font-size: 11px; color: #333;font-weight: normal;border:orange 1px solid;
+
+}
+
+/*WARNING*/
+.warning_htdtc{
+font-family:arial; font-size: 12px; color: #FFF; font-weight: bold;background-color: #FF6600;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=Buttonshadow,direction=135,strength=3);
+}
+.infos_htdtc{
+font-family:arial; font-size: 12px; color: #FFF; font-weight: bold;background-color: #EF9D00;
+padding-top:1px;padding-bottom:1px;padding-right:3px;padding-left:3px;
+}
+.pics_htdtc{cursor:pointer;}
+
+
+
+
+
+/*
+HtmlareaTool(with)DataTransfertControls->100%
+Online Web Editor
+HTDTC->100% - Copyright (c) 2004 - Sébastien Tristant
+Made in Andernos (33510 - France)
+This copyright notice MUST stay intact for use (see license.txt).
+*/

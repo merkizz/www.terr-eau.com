@@ -1,0 +1,9 @@
+# --- Idea
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea
+
+#DS-Store
+.DS_Store

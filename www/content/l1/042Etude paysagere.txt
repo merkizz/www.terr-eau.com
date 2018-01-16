@@ -1,0 +1,11 @@
+<h2>Quelles fleurs ou plantes choisir ?</h2>
+<p><span style=\"color: #333333\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">Vous h&eacute;sitez.....</span></span></span> <span style=\"color: #333333\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\">Nos paysagistes, issus d\'&eacute;cole d\'am&eacute;nagement paysager, peuvent vous conseiller afin :</span></span></span></p>
+<ul>
+    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\"><span style=\"font-size: 14px\">d\'agr&eacute;menter et de structurer au mieux votre jardin</span> </span></span></li>
+    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\"><span style=\"font-size: 14px\">de choisir les v&eacute;g&eacute;taux et min&eacute;raux</span> </span></span></li>
+    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\"><span style=\"font-size: 14px\">d\'organiser les espaces</span> </span></span></li>
+    <li style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">de redessiner les volumes&nbsp; </span></span></span></li>
+    <li style=\"text-align: justify\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">d\'&eacute;tudier un am&eacute;nagement&nbsp;plus harmonieux&nbsp; </span></span></span>
+    <p style=\"text-align: justify\">&nbsp;</p>
+    </li>
+</ul>

@@ -1,0 +1,12 @@
+<table border="0" cellspacing="0" cellpadding="0" width="850" align="center">
+    <tbody>
+        <tr>
+            <td>
+            <h1><span style="color: #333333"><span style="font-family: Verdana"><strong>Titre</strong></span></span></h1>
+            <h2><span style="color: #333333"><span style="font-family: Verdana"><strong>Sous-Titre1</strong></span></span></h2>
+            <h3><span style="color: #333333"><span style="font-family: Verdana"><strong>Sous-Titre2</strong></span></span></h3>
+            <p><span style="color: #333333"><span style="font-family: Verdana"><span style="font-size: 12px">Site en Cours de Remplissage...</span></span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>

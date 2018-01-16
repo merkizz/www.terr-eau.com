@@ -1,0 +1,9 @@
+<?php
+
+function NameFile($FileToname)
+{
+	$goodfilename=stripslashes(strtolower(strtr($FileToname, ' \"\'ÀÁÂÃÄÅàáâãäåÒÓÔÕÖØòóôõöøÈÉÊËèéêëÇçÌÍÎÏìíîïÙÚÛÜùúûüÿÑñ', '____aaaaaaaaaaaaooooooooooooeeeeeeeecciiiiiiiiuuuuuuuuynn')));
+	return $goodfilename;
+}
+
+?>

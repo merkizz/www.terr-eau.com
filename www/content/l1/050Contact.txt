@@ -1,0 +1,18 @@
+<table border=\"0\" cellspacing=\"5\" cellpadding=\"5\" width=\"100%\" align=\"center\">
+    <tbody>
+        <tr>
+            <td>
+            <p align=\"center\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">Toute notre &eacute;quipe<strong> </strong>est &agrave; votre disposition pour tout renseignement.</span></span></span></p>
+            <h2 align=\"center\"><span style=\"font-family: Comic Sans MS\"><strong>T</strong></span><span style=\"font-family: Comic Sans MS\"><strong>err&acute;eau</strong></span></h2>
+            <p style=\"text-align: center\"><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">41, Boulevard Guy Mocquet - 93460 GOURNAY SUR MARNE</span></span></span></p>
+            <p align=\"center\"><strong><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">T&eacute;l</span></span></span></strong><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">. : 01 49 32 00 63 - <strong>Fax </strong>: 01 49 32 00 63</span></span></span></p>
+            <p style=\"text-align: center\"><strong><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\">Portable :</span></span></span></strong><span style=\"font-size: 14px\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333\"> Audric 06 85 13 11 27 - Geoffrey 06 81 37 89 87</span></span></span></p>
+            <p align=\"center\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333; font-size: 12px\"><a href=\"mailto:jardinier@terr-eau.com\"><span style=\"font-size: 14px\">jardinier@terr-eau.com</span></a></span></span></p>
+            </td>
+            <td>
+            <p align=\"center\"><span style=\"font-family: Trebuchet MS\"><span style=\"color: #333333; font-size: 12px\"><iframe height=\"300\" marginheight=\"0\" src=\"http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=Terr\'eau%E2%80%8E+-++41+Boulevard+Guy+Mocquet+-+93460+GOURNAY+SUR+MARNE&amp;aq=&amp;sll=48.861922,2.583012&amp;sspn=0.009387,0.022724&amp;g=41,+Boulevard+Guy+Mocquet+-+93460+GOURNAY+SUR+MARNE&amp;ie=UTF8&amp;hq=Terr\'eau%E2%80%8E+-+41+Boulevard+Guy+Mocquet+-&amp;hnear=Gournay-sur-Marne,+Seine-Saint-Denis,+Ile-de-France&amp;cid=10590458386863757737&amp;ll=48.869796,2.585306&amp;spn=0.01976,0.064373&amp;z=14&amp;iwloc=A&amp;output=embed\" frameborder=\"0\" width=\"450\" marginwidth=\"0\" scrolling=\"no\"></iframe><br />
+            <small><a target=\"_blank\" href=\"http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=Terr\'eau%E2%80%8E+-++41+Boulevard+Guy+Mocquet+-+93460+GOURNAY+SUR+MARNE&amp;aq=&amp;sll=48.861922,2.583012&amp;sspn=0.009387,0.022724&amp;g=41,+Boulevard+Guy+Mocquet+-+93460+GOURNAY+SUR+MARNE&amp;ie=UTF8&amp;hq=Terr\'eau%E2%80%8E+-+41+Boulevard+Guy+Mocquet+-&amp;hnear=Gournay-sur-Marne,+Seine-Saint-Denis,+Ile-de-France&amp;cid=10590458386863757737&amp;ll=48.869796,2.585306&amp;spn=0.01976,0.064373&amp;z=14&amp;iwloc=A\">Agrandir le plan</a></small></span></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
