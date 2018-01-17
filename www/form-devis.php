@@ -16,7 +16,7 @@
                     <input name="lemail" size="25"  maxlength="50" style="width:200px;"></td>
                   </tr>
                   <tr>
-                    <td class="txt1"><span class="Style9">Téléphone : </span></td>
+                    <td class="txt1"><span class="Style9">TÃ©lÃ©phone : </span></td>
                     <td class="txt1">
                     <input name="telephone" size="25" maxlength="20" style="width:200px;"></td>
                   </tr>

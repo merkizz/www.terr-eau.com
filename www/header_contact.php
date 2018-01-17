@@ -3,12 +3,12 @@ $destinataire="jardinier@terr-eau.com";
 
 
 
-$sujet="Formulaire de Contact";   //si nécessaire (autre exemple "devis"...)
+$sujet="Formulaire de Contact";   //si nÃ©cessaire (autre exemple "devis"...)
 
 
 /*
 
-Pour chaque champ supplémentaire,
+Pour chaque champ supplÃ©mentaire,
 
 Ajouter :
 
@@ -17,7 +17,7 @@ has_no_newlines($NomDuChamp); (pas pour les textarea)
 has_no_emailheaders($NomDuChamp); 
 
 	 		 			
-Champ obligatoires supplémentaires : MODIFIER le javascript)
+Champ obligatoires supplÃ©mentaires : MODIFIER le javascript)
 
 */
 
@@ -53,11 +53,11 @@ $message=nl2br(htmlentities($_POST['message']));
 test_textarea($message);
 
 
-// repérer le nom de l'hôte dans l'URL
+// repÃ©rer le nom de l'hÃ´te dans l'URL
 preg_match('@^(?:http://)?([^/]+)@i',$page_du_formulaire, $matches);
 $host = $matches[1];
 
-// repérer les deux derniers segments du nom de l'hôte
+// repÃ©rer les deux derniers segments du nom de l'hÃ´te
 preg_match('/[^.]+\.[^.]+$/', $host, $matches);
 //echo "Le nom de domaine est : ".$matches[0]."\n";
 
@@ -102,13 +102,13 @@ $Sujet=$matches[0]." - ".$sujet;
 $Mail=$lemessage;
 $From=$lemail;
 
-incomm_mail_auth($Dest, $Sujet, $Mail, $From, $Cc="", $Bcc="", $Encode="text/html; charset=\"ISO-8859-1\"", $Tab_Attachements="");
+incomm_mail_auth($Dest, $Sujet, $Mail, $From, $Cc="", $Bcc="", $Encode="text/html; charset=\"utf-8\"", $Tab_Attachements="");
 
 ?>
-<script>alert("Votre message a été envoyé à <?php echo $matches[0];?>")</script>
+<script>alert("Votre message a Ã©tÃ© envoyÃ© Ã  <?php echo $matches[0];?>")</script>
 <?php
 //}//cookie
-}//formulaire posté
+}//formulaire postÃ©
 
 ?>
 
