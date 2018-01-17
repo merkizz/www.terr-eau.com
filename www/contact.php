@@ -55,4 +55,4 @@
   </tr>
 </table>
 
-<?php include 'footer.php'; ?>
+<?php include 'module/footer.php'; ?>
