@@ -42,8 +42,8 @@
   <tr>
     <td valign="top" width="1000" height="113" style="background-image:url(gfx/index_08.jpg); background-repeat:no-repeat; background-position:top left;">
         <div id="footer" style="height:85px; width:268px; line-height:17px; font-weight:bold; margin-left:300px; color:#ffffff;">
-            M. RUBE Geoffrey<br/>
-            M. BRUZON-BASCOU Audric, Paysagistes<br/>
+            M. RUBE Geoffrey, Paysagiste<br/>
+            M. BRUZON-BASCOU Audric, Paysagiste<br/>
             50, Avenue René Faugeras<br/>
             93220 GAGNY<br/>
             Tél. : 01 49 32 00 63 - Fax: 01 49 31 04 04

@@ -7,7 +7,7 @@
 <title>N'hésitez pas à contactez TERR'EAU</title>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="description" content="Terr'eau : 50, Avenue René Faugeras 93220 GAGNY - T�l: 01 49 32 00 63 - Fax: 01 49 31 04 04 - Portable : Audric 06 85 13 11 27 - Geoffrey 06 81 37 89 87 - jardinier@terr-eau.com">
+<meta name="description" content="Terr'eau : 50, Avenue René Faugeras 93220 GAGNY - T�l: 01 49 32 00 63 - Fax: 01 49 31 04 04 - jardinier@terr-eau.com">
 <meta name="keywords" content="jardinier paysagiste seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
 <meta name="language" content="french">
 
@@ -36,19 +36,18 @@
     <td valign="top" style="background:transparent url('gfx/page_03.jpg') no-repeat top left; height:48px;padding-left:482px"><h1 id="id_h1"><span>C</span>ontact</h1></td>
   </tr>
   <tr>
-    <td valign="top" bgcolor="#f7f7f7"><table width="100%" height="352" border="0" cellpadding="0" cellspacing="0" style="background-image:url(gfx/page_04.jpg); background-position:top left; background-repeat:no-repeat;">
-      <tr>
-        <td width="20" rowspan="3">&nbsp;</td>
-        <td width="93%">&nbsp;</td>
-        <td width="20" rowspan="3">&nbsp;</td>
-      </tr>
-      <tr>
-        <td valign="top"><?php require_once 'gestion/inc/misc.php';HtdtcShow('content/l1/','050Contact.txt');?></td>
-      </tr>
-	   <tr>
-        <td><?php include'form-contact.php';?></td>
-      </tr>
-	     </table></td>
+    <td valign="top" bgcolor="#f7f7f7">
+        <table width="100%" height="352" border="0" cellpadding="0" cellspacing="0" style="background-image:url(gfx/page_04.jpg); background-position:top left; background-repeat:no-repeat;">
+            <tr>
+                <td width="20" rowspan="3">&nbsp;</td>
+                <td width="93%">&nbsp;</td>
+                <td width="20" rowspan="3">&nbsp;</td>
+            </tr>
+            <tr>
+                <td valign="top"><?php require_once 'gestion/inc/misc.php';HtdtcShow('content/l1/','050Contact.txt');?></td>
+            </tr>
+        </table>
+    </td>
   </tr>
   <tr>
       <td style="background:transparent url('gfx/page_05.jpg') no-repeat top left; height:43px"><?php include 'module/coordonnees.php'; ?></td>
