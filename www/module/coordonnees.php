@@ -1,1 +1,1 @@
-<span id="adresse">SARL TERR'EAU - 50, Avenue René Faugeras 93220 GAGNY - Tél. : 01.49.32.00.63 - Fax: 01.49.31.04.04 - Email : jardinier@terr-eau.com / terr-eau@hotmail.fr</span><a href="#haut" id="lienhaut"></a>
+<span id="adresse">SARL TERR'EAU - 50, Avenue René Faugeras 93220 GAGNY - Tél. : 01.49.32.00.63 - Fax: 01.49.31.04.04 - Email : jardinier@terr-eau.com</span><a href="#haut" id="lienhaut"></a>
