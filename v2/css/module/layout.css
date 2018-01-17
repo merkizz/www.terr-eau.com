@@ -114,3 +114,26 @@ p.text {
 		margin: 0;
 	}
 }
+
+.mosaic {
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.mosaic .item {
+	display: block;
+	max-width: 300px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+.mosaic .item img {
+	height: 230px;
+	width: auto;
+}
+
+.mosaic span.title {
+	display: block;
+	text-align: center;
+}
