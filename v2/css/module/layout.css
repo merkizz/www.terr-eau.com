@@ -20,6 +20,7 @@ html {
 
 body {
 	font-family: Arial, Verdana, sans-serif;
+	font-size: 100%;
 	margin:0;
 }
 
@@ -125,7 +126,7 @@ p.text {
 	display: block;
 	max-width: 300px;
 	margin: auto;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .mosaic .item img {
@@ -135,5 +136,7 @@ p.text {
 
 .mosaic span.title {
 	display: block;
+	margin-top: 5px;
 	text-align: center;
+	font-weight:bold;
 }
