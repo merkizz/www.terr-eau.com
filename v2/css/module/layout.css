@@ -77,3 +77,40 @@ p.text {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+.contact {
+	display: block;
+	max-width: 800px;
+	margin: 40px 0 0;
+}
+
+.contact .text {
+	font-size: 16px;
+	text-align: center;
+	line-height: normal;
+}
+
+.contact iframe.embed {
+	display: block;
+	margin: 20px auto 0;
+	width: 100%;
+	max-width: 450px;
+}
+
+@media (min-width: 900px) {
+	.contact {
+		margin: 40px auto 0;
+	}
+
+	.contact .text {
+		display: inline-block;
+		padding: 60px;
+		line-height: unset;
+		margin-bottom: 0;
+	}
+
+	.contact iframe.embed {
+		float: right;
+		margin: 0;
+	}
+}
