@@ -22,21 +22,21 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="item">
-                                    <img src="../img/activites/entretien.jpg" width="591" height="478" alt="Entretien"/>
+                                    <img src="../static/img/activites/entretien.jpg" width="591" height="478" alt="Entretien"/>
                                     <span class="title">Entretien</span>
                                 </div>
                                 <div class="item">
-                                    <img src="../img/activites/maconnerie-paysagere.jpg" width="591" height="478" alt="Maçonnerie paysagère"/>
+                                    <img src="../static/img/activites/maconnerie-paysagere.jpg" width="591" height="478" alt="Maçonnerie paysagère"/>
                                     <span class="title">Maçonnerie paysagère</span>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="item">
-                                    <img src="../img/activites/creation.jpg" width="591" height="478" alt="Création"/>
+                                    <img src="../static/img/activites/creation.jpg" width="591" height="478" alt="Création"/>
                                     <span class="title">Création</span>
                                 </div>
                                 <div class="item">
-                                    <img src="../img/activites/eclairage.jpg" width="591" height="478" alt="Eclairage extérieur"/>
+                                    <img src="../static/img/activites/eclairage.jpg" width="591" height="478" alt="Eclairage extérieur"/>
                                     <span class="title">Eclairage extérieur</span>
                                 </div>
                             </div>
@@ -44,13 +44,13 @@
                                 <div class="row">
                                     <div class="col-sm-6 col-md-12">
                                         <div class="item">
-                                            <img src="../img/activites/elagage.jpg" width="591" height="478" alt="Elagage"/>
+                                            <img src="../static/img/activites/elagage.jpg" width="591" height="478" alt="Elagage"/>
                                             <span class="title">Elagage</span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 col-md-12">
                                         <div class="item">
-                                            <img src="../img/activites/arrosage.jpg" width="591" height="478" alt="Arrosage"/>
+                                            <img src="../static/img/activites/arrosage.jpg" width="591" height="478" alt="Arrosage"/>
                                             <span class="title">Arrosage</span>
                                         </div>
                                     </div>

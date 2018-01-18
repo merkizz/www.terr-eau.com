@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12">
             <div class="logo">
-                <a href="/v2"><img src="/v2/img/logo.jpg"/></a>
+                <a href="/v2"><img src="/v2/static/img/logo.jpg"/></a>
             </div>
             <div class="main-nav">
                 <a class="item" href="/v2/presentation">Présentation</a>

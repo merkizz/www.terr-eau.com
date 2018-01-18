@@ -22,31 +22,31 @@
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <div class="item">
-                                    <img src="../img/realisations/entretien.jpg" width="591" height="478" alt="Entretien"/>
+                                    <img src="../static/img/realisations/entretien.jpg" width="591" height="478" alt="Entretien"/>
                                     <span class="title">Entretien</span>
                                 </div>
                                 <div class="item">
-                                    <img src="../img/realisations/remise-etat.jpg" width="591" height="478" alt="Remise en état"/>
+                                    <img src="../static/img/realisations/remise-etat.jpg" width="591" height="478" alt="Remise en état"/>
                                     <span class="title">Remise en état</span>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="item">
-                                    <img src="../img/realisations/gazon-semis.jpg" width="591" height="478" alt="Gazon de semis"/>
+                                    <img src="../static/img/realisations/gazon-semis.jpg" width="591" height="478" alt="Gazon de semis"/>
                                     <span class="title">Gazon de semis</span>
                                 </div>
                                 <div class="item">
-                                    <img src="../img/realisations/gazon-placage.jpg" width="591" height="478" alt="Gazon de placage"/>
+                                    <img src="../static/img/realisations/gazon-placage.jpg" width="591" height="478" alt="Gazon de placage"/>
                                     <span class="title">Gazon de placage</span>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <div class="item">
-                                    <img src="../img/realisations/plantations.jpg" width="591" height="478" alt="Plantations"/>
+                                    <img src="../static/img/realisations/plantations.jpg" width="591" height="478" alt="Plantations"/>
                                     <span class="title">Plantations</span>
                                 </div>
                                 <div class="item">
-                                    <img src="../img/realisations/taille.jpg" width="591" height="478" alt="Taille"/>
+                                    <img src="../static/img/realisations/taille.jpg" width="591" height="478" alt="Taille"/>
                                     <span class="title">Taille</span>
                                 </div>
                             </div>
@@ -54,13 +54,13 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="item">
-                                            <img src="../img/realisations/elagage-abattage.jpg" width="591" height="478" alt="Elagage - Abattage"/>
+                                            <img src="../static/img/realisations/elagage-abattage.jpg" width="591" height="478" alt="Elagage - Abattage"/>
                                             <span class="title">Plantations</span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="item">
-                                            <img src="../img/realisations/pallissade.jpg" width="591" height="478" alt="Palissades"/>
+                                            <img src="../static/img/realisations/pallissade.jpg" width="591" height="478" alt="Palissades"/>
                                             <span class="title">Palissades</span>
                                         </div>
                                     </div>
