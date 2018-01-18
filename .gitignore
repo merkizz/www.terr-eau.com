@@ -1,0 +1,41 @@
+# maven
+target
+bin
+
+# gradle
+.gradle
+build
+
+# --- Idea
+*.iml
+*.ipr
+*.iws
+*.ids
+.idea
+
+# Maven
+target/
+bin/
+
+# JRebel
+*.error
+
+# Gradle
+build/
+.gradle/
+gradle-app.setting
+
+#Sass Cache
+.sass-cache
+
+#DS-Store
+.DS_Store
+
+#sublime-text
+.sublime-grunt.cache
+
+#brackets
+.brackets.json
+
+#FOLDER
+**/node_modules
