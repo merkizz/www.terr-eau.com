@@ -10,7 +10,10 @@
     <?php include '../widget/includes.php'; ?>
 </head>
 <body>
-    <?php include '../widget/header.php'; ?>
+    <?php
+    $current = 'competences';
+    include '../widget/header.php';
+    ?>
 
     <div class="main-wrapper">
         <div class="row">
@@ -43,5 +46,7 @@
 
         <?php include '../widget/footer.php'; ?>
     </div>
+
+    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

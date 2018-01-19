@@ -23,5 +23,7 @@
 
         <?php include 'widget/footer.php'; ?>
     </div>
+
+    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>
