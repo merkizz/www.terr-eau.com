@@ -140,3 +140,17 @@ p.text {
 	text-align: center;
 	font-weight:bold;
 }
+
+.contact-section {
+	max-width: 600px;
+	margin: 40px auto 0;
+
+	.btn-submit {
+		background-color: $green;
+		border-color: $green-dark;
+
+		&:hover {
+			background-color: $green-dark;
+		}
+	}
+}
