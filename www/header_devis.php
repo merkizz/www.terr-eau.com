@@ -17,8 +17,7 @@ if (isset($_POST['public_mail'])) {
         'From: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
-    //$destinataire   = "jardinier@terr-eau.com";
-    $destinataire   = "thomas.piseth.lay@gmail.com";
+    $destinataire   = "jardinier@terr-eau.com";
     $sujet          = "Terr'Eau - Demande de devis";
     $body           =
     "
