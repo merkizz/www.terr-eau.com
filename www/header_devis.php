@@ -13,7 +13,7 @@ if (isset($_POST['public_mail'])) {
     $message    = nl2br($_POST['message']);
 
     $headers  = 'MIME-Version: 1.0' . "\r\n" .
-        'Content-type: text/html; charset=iso-8859-1' . "\r\n" .
+        'Content-type: text/html; charset=utf-8' . "\r\n" .
         'From: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
