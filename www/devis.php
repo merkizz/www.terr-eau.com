@@ -44,7 +44,7 @@
         <td width="20" rowspan="3">&nbsp;</td>
       </tr>
       <tr>
-        <td valign="top"><?php require_once 'gestion/inc/misc.php';HtdtcShow('content/l1/','080Demande de devis.txt');?><?php require_once 'header_contact.php';?></td>
+        <td valign="top"><?php require_once 'gestion/inc/misc.php';HtdtcShow('content/l1/','080Demande de devis.txt');?></td>
       </tr>
 	   <tr>
         <td><?php require_once 'form-devis.php';?></td>

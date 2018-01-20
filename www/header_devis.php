@@ -1,172 +1,125 @@
 <?php
-$destinataire="jardinier@terr-eau.com";
+if (isset($_POST['public_mail'])) {
+    if ($_SERVER['HTTP_REFERER'] != 'http://www.terr-eau.com/devis.php') {
+        exit("Opération non autorisée");
+    }
 
+    $nom        = trim($_POST['nom']);
+    $email      = trim($_POST['lemail']);
+    $telephone  = trim($_POST['telephone']);
+    $adresse    = trim($_POST['adresse']);
+    $ville      = trim($_POST['ville']);
+    $codepostal = trim($_POST['cp']);
+    $message    = nl2br($_POST['message']);
 
+    $headers  = 'MIME-Version: 1.0' . "\r\n" .
+        'Content-type: text/html; charset=iso-8859-1' . "\r\n" .
+        'From: ' . $email . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
 
-$sujet="Formulaire de Devis";   //si nécessaire (autre exemple "devis"...)
+    //$destinataire   = "jardinier@terr-eau.com";
+    $destinataire   = "thomas.piseth.lay@gmail.com";
+    $sujet          = "Terr'Eau - Demande de devis";
+    $body           =
+    "
+    <!DOCTYPE html>
+    <html lang=\"fr-FR\">
+    <head>
+        <title>Terre'Eau - Demande de devis</title>
+    </head>
+    <body bgcolor=\"#efefef\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\">
+        <table width=\"700\" bgcolor=\"#ffffff\" border=\"0\" cellspacing=\"0\" cellpadding=\"5\" align=\"center\" style=\"margin-top: 30px; padding: 20px\">
+            <tr>
+                <td colspan=\"2\">
+                    <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">
+                        <td width=\"110\">
+                            <img src=\"http://www.terr-eau.com/content/pics/logo.gif\" width=\"110\" height=\"83\" alt=\"Terr'Eau\">
+                        </td>
+                        <td width=\"590\" valign=\"middle\" style=\"text-align: center;\">
+                            <font face=\"Arial, Verdana, Helvetica\" style=\"color: #017601; font-size: 26px;\"><strong>DEMANDE DE DEVIS</strong></font>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=\"2\"><hr></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Nom :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$nom."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Email :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$email."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">T&eacute;l&eacute;phone :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$telephone."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Adresse :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$adresse."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Ville :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$ville."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Code postal :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$codepostal."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\" valign=\"top\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Message :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$message."</strong></font></td>
+            </tr>
+        </table>
+    </body>
+    </html>
+    ";
 
-
-/*
-
-Pour chaque champ supplémentaire,
-
-Ajouter :
-
-$NomDuChamp=htmlentities(stripslashes(trim($_POST['NomDuChamp'])));
-has_no_newlines($NomDuChamp); (pas pour les textarea)
-has_no_emailheaders($NomDuChamp); 
-
-	 		 			
-Champ obligatoires supplémentaires : MODIFIER le javascript)
-
-*/
-
-
-if (isset($_POST['public_mail'])){
-require_once "/home/sites/lelog.net/website/mail_auth/mail_auth.php";
-
-//4 javascript plaster
-if (trim($_POST["plaster"]) != "incomm"){exit("Erreur : plaster");}
-
-//5 champ vide	
-if (trim($_POST['public_mail'])!=""){exit("Erreur : public_mail");}
- 
-// ici et pas ailleurs (1)
-if ($_SERVER['HTTP_REFERER']!=$page_du_formulaire){exit("Erreur : REFERER");}
-
-// 6 Impossible d'envoyer un second mail pendant 60"
-//if (isset($_COOKIE["recomSent"]) && $_COOKIE["recomSent"] == "1"){
-//exit("Erreur : cookie");
-//}else{
-//setcookie("recomSent", "1", time()+60);
-
-//TRAITEMENT DES CHAMPS
-
-//test d'un champ text  input
-$nom=test_input(htmlentities(trim($_POST['nom'])));
-$lemail=test_input(htmlentities(trim($_POST['lemail'])));
-$telephone=test_input(htmlentities(trim($_POST['telephone'])));
-
-$adresse=test_input(htmlentities(trim($_POST['adresse'])));
-$ville=test_input(htmlentities(trim($_POST['ville'])));
-$cp=test_input(htmlentities(trim($_POST['cp'])));
-
-$message=nl2br(htmlentities($_POST['message']));
-test_textarea($message);
-
-
-// repérer le nom de l'hôte dans l'URL
-preg_match('@^(?:http://)?([^/]+)@i',$page_du_formulaire, $matches);
-$host = $matches[1];
-
-// rep"rer les deux derniers segments du nom de l'hôte
-preg_match('/[^.]+\.[^.]+$/', $host, $matches);
-//echo "Le nom de domaine est : ".$matches[0]."\n";
-
-
-$lemessage=
-"
-<table border=0 cellspacing=3 cellpadding=0 align=left>
-<tr> 
-    <td colspan=2><b>:: ".$matches[0]." - ".$sujet." :: </b></td>
-</tr>
-<tr valign=top align=center> 
-  <td colspan=2><hr></td>
-</tr>
-<tr> 
-  <td>Nom :</td>
-  <td><b>".$nom."</b></td>
-</tr>
-<tr> 
-  <td>E-mail : </td>
-  <td><b>".$lemail."</b></td>
-</tr>
-<tr> 
-  <td>T&eacute;l&eacute;phone : </td>
-  <td><b>".$telephone."</b></td>
-</tr>
-
-<tr> 
-  <td>Adresse :</td>
-  <td><b>".$adresse."</b></td>
-</tr>
-<tr> 
-  <td>Ville :</td>
-  <td><b>".$ville."</b></td>
-</tr>
-<tr> 
-  <td>Code Postal :</td>
-  <td><b>".$cp."</b></td>
-</tr>
-<tr> 
-  <td valign=top>Message : </td>
-  <td><b>".stripslashes($message)."</b></td>
-</tr>  
-</table>
-";
-//echo $message;//exit("Envoi du mail");
-//mail("".$destinataire."","".$sujet."",$lemessage,$headers);
-
-
-$Dest=$destinataire;
-$Sujet=$matches[0]." - ".$sujet;
-$Mail=$lemessage;
-$From=$lemail;
-
-incomm_mail_auth($Dest, $Sujet, $Mail, $From, $Cc="", $Bcc="", $Encode="text/html; charset=\"utf-8\"", $Tab_Attachements="");
-
+    mail($destinataire, $sujet, $body, $headers);
 ?>
-<script>alert("Votre message a été envoyé à <?php echo $matches[0];?>")</script>
+    <script>alert("Votre demande de devis a été envoyée à Terr'Eau");</script>
 <?php
-//}//cookie
-}//formulaire posté
-
+}
 ?>
-
 
 <script language="JavaScript" type="text/javascript">
 <!--
 function checkForm() {
-var ErrorColor = "#FFCC66";
-//(4)
-document.formcontact.plaster.value = "incomm";
+    var errorColor = "#FFCC66";
 
-//8 Champs obligatoires			
-  if (document.formcontact.nom.value == "") {
-    alert("* Champs obligatoires.\n");    
-    document.formcontact.nom.style.backgroundColor=ErrorColor;
-    document.formcontact.nom.focus();
-    return false;
-  }
+    if (document.formcontact.nom.value == "") {
+        alert("Vous devez renseigner votre nom");
+        document.formcontact.nom.style.backgroundColor = errorColor;
+        document.formcontact.nom.focus();
+        return false;
+    }
 
-if (document.formcontact.lemail.value == "") {
-    alert("* Champs obligatoires.\n");    
-    document.formcontact.lemail.style.backgroundColor=ErrorColor;
-    document.formcontact.lemail.focus();
-    return false;
-  }
+    if (document.formcontact.lemail.value == "") {
+        alert("Vous devez renseigner votre email");
+        document.formcontact.lemail.style.backgroundColor = errorColor;
+        document.formcontact.lemail.focus();
+        return false;
+    }
 
+    var x = formcontact.lemail.value;
+    var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!filter.test(x)) {
+        alert("L'adresse email renseignée est invalide");
+        formcontact.lemail.style.backgroundColor = errorColor;
+        formcontact.lemail.focus();
+        return false;
+    }
 
-var x = formcontact.lemail.value;
-var filter  = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-if (!filter.test(x)) {
-	
-	alert('Adresse email invalide');
-	formcontact.lemail.style.backgroundColor=ErrorColor;
-	formcontact.lemail.focus();		
-	return false;
-	
-	}
-	
-      
- if (document.formcontact.message.value == "") {
-    alert("* Champs obligatoires.\n");    
-    document.formcontact.message.style.backgroundColor=ErrorColor;
-    document.formcontact.message.focus();
-    return false;
-  }     
-  return true;     
-     
+    if (document.formcontact.message.value == "") {
+        alert("Merci de saisir votre demande");
+        document.formcontact.message.style.backgroundColor = errorColor;
+        document.formcontact.message.focus();
+        return false;
+    }
+
+    return true;
 }
 -->
 </script>
