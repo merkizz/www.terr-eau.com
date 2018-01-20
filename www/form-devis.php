@@ -16,7 +16,7 @@
                     <input name="lemail" size="25"  maxlength="50" style="width:200px;"></td>
                   </tr>
                   <tr>
-                    <td class="txt1"><span class="Style9">Téléphone : </span></td>
+                    <td class="txt1"><span class="Style9">Téléphone * : </span></td>
                     <td class="txt1">
                     <input name="telephone" size="25" maxlength="20" style="width:200px;"></td>
                   </tr>
@@ -29,7 +29,7 @@
                     <input name="adresse" size="25" maxlength="100" style="width:200px;"></td>
                   </tr>
                   <tr>
-                    <td class="txt1"><span class="Style9">Ville :</span></td>
+                    <td class="txt1"><span class="Style9">Ville * :</span></td>
                     <td class="txt1">
                     <input name="ville" size="25" maxlength="100" style="width:200px;"></td>
                   </tr>

@@ -111,6 +111,20 @@ function checkForm() {
         return false;
     }
 
+    if (document.formcontact.telephone.value == "") {
+        alert("Vous devez renseigner votre numéro de téléphone");
+        document.formcontact.telephone.style.backgroundColor = errorColor;
+        document.formcontact.telephone.focus();
+        return false;
+    }
+
+    if (document.formcontact.ville.value == "") {
+        alert("Vous devez renseigner votre ville");
+        document.formcontact.ville.style.backgroundColor = errorColor;
+        document.formcontact.ville.focus();
+        return false;
+    }
+
     if (document.formcontact.message.value == "") {
         alert("Merci de saisir votre demande");
         document.formcontact.message.style.backgroundColor = errorColor;
