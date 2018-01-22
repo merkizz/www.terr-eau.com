@@ -1,24 +1,85 @@
 <?php
 if (isset($_POST['sendEmail'])) {
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $phoneNumber = $_POST['phoneNumber'];
-    $street = $_POST['street'];
-    $city = $_POST['city'];
-    $zipCode = $_POST['zipCode'];
-    $message = $_POST['message'];
+    if ($_SERVER['HTTP_REFERER'] != 'http://www.terr-eau.com/v2/devis.php') {
+        exit("Opération non autorisée");
+    }
 
-    $headers = 'From: ' . $email . "\r\n" .
+    $name           = trim($_POST['name']);
+    $email          = trim($_POST['email']);
+    $phoneNumber    = trim($_POST['phoneNumber']);
+    $street         = trim($_POST['street']);
+    $city           = trim($_POST['city']);
+    $zipCode        = trim($_POST['zipCode']);
+    $message        = nl2br($_POST['message']);
+
+    $headers  = 'MIME-Version: 1.0' . "\r\n" .
+        'Content-type: text/html; charset=utf-8' . "\r\n" .
+        'From: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    $to      = 'thomas.piseth.lay@gmail.com';
-    $subject = 'Demande de devis';
-    $body = 'Nom : ' . $name . "\r\n" .
-        'Email : ' . $email . "\r\n" .
-        'Téléphone : ' . $phoneNumber . "\r\n" .
-        'Adresse : ' . $street . ' ' . $zipCode . ' ' . $city . "\r\n\r\n" .
-        'Message : ' . $message . "\r\n";
+
+    $to         = "thomas.piseth.lay@gmail.com";
+    $subject    = "Terr'Eau - Demande de devis";
+    $body       =
+    "
+    <!DOCTYPE html>
+    <html lang=\"fr-FR\">
+    <head>
+        <title>Terre'Eau - Demande de devis</title>
+    </head>
+    <body bgcolor=\"#efefef\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\">
+        <table width=\"700\" bgcolor=\"#ffffff\" border=\"0\" cellspacing=\"0\" cellpadding=\"5\" align=\"center\" style=\"margin-top: 30px; padding: 20px\">
+            <tr>
+                <td colspan=\"2\">
+                    <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">
+                        <td width=\"110\">
+                            <img src=\"http://www.terr-eau.com/content/pics/logo.gif\" width=\"110\" height=\"83\" alt=\"Terr'Eau\">
+                        </td>
+                        <td width=\"590\" valign=\"middle\" style=\"text-align: center;\">
+                            <font face=\"Arial, Verdana, Helvetica\" style=\"color: #017601; font-size: 26px;\"><strong>DEMANDE DE DEVIS</strong></font>
+                        </td>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan=\"2\"><hr></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Nom :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$name."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Email :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$email."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">T&eacute;l&eacute;phone :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$phoneNumber."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Adresse :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$street."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Ville :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$city."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Code postal :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$zipCode."</strong></font></td>
+            </tr>
+            <tr>
+                <td width=\"150\" valign=\"top\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\">Message :</font></td>
+                <td width=\"550\"><font face=\"Arial, Verdana, Helvetica\" style=\"color: #1f1f1f; font-size: 14px;\"><strong>".$message."</strong></font></td>
+            </tr>
+        </table>
+    </body>
+    </html>
+    ";
 
     mail($to, $subject, $body, $headers);
+?>
+    <script>alert("Votre demande de devis a été envoyée à Terr'Eau");</script>
+<?php
 }
 ?>
 
@@ -49,7 +110,7 @@ if (isset($_POST['sendEmail'])) {
                     </p>
 
                     <section class="contact-section">
-                        <form action="/v2/devis" method="post">
+                        <form id="form-contact" name="form-contact" action="/v2/devis" method="post" onSubmit="return checkForm();">
                             <div class="form-group row">
                                 <div class="col-sm-12">
                                     <input id="name" name="name" class="form-control" placeholder="Votre nom"/>
