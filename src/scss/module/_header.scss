@@ -1,10 +1,12 @@
 .main-header {
 	position: fixed;
+	top: 0;
+	left: 0;
 	width: 100%;
 	z-index: 19999;
 
 	.main-nav {
-		height: 60px;
+		height: $main-header-height;
 		overflow: hidden;
 		background-color: $white;
 		text-align: center;
@@ -55,10 +57,10 @@
 			.nav-text {
 				display: block;
 				overflow: hidden;
-				height: 60px;
-				line-height: 60px;
+				height: $main-header-height;
+				line-height: $main-header-height;
 				padding: 0 20px;
-				font-size: 14px;
+				font-size: 16px;
 				text-transform: uppercase;
 				text-align: center;
 				color: $green;
@@ -165,7 +167,7 @@
 	.nav-slide {
 		position: fixed;
 		min-height: calc(100% - 60px);
-		top: 60px;
+		top: $main-header-height;
 		left: 0;
 		bottom: 0;
 		width: 100%;

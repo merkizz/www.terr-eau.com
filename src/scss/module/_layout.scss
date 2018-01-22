@@ -55,8 +55,7 @@ a.link:hover {
 
 .main-wrapper {
 	max-width: 1000px;
-	margin:0 auto;
-	padding-top: 60px;
+	margin: $main-header-height auto 0;
 	background-color: $white;
 }
 
