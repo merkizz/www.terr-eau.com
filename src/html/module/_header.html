@@ -14,22 +14,22 @@
             <a href="index.html"><img src="../../dist/img/logo.jpg" height="60" alt="Terr'eau"/></a>
         </div>
         <div class="nav-list">
-            <div class="nav-item active">
+            <div class="nav-item <%= locals.current == 'presentation' ? 'active' : '' %>">
                 <a class="nav-text" href="presentation.html">Présentation</a>
             </div>
-            <div class="nav-item">
+            <div class="nav-item <%= locals.current == 'competences' ? 'active' : '' %>">
                 <a class="nav-text" href="competences.html">Compétences</a>
             </div>
-            <div class="nav-item">
+            <div class="nav-item <%= locals.current == 'activites' ? 'active' : '' %>">
                 <a class="nav-text" href="activites.html">Activités</a>
             </div>
-            <div class="nav-item">
+            <div class="nav-item <%= locals.current == 'realisations' ? 'active' : '' %>">
                 <a class="nav-text" href="realisations.html">Réalisations</a>
             </div>
-            <div class="nav-item">
+            <div class="nav-item <%= locals.current == 'devis' ? 'active' : '' %>">
                 <a class="nav-text" href="devis.html">Demande de devis</a>
             </div>
-            <div class="nav-item">
+            <div class="nav-item <%= locals.current == 'contact' ? 'active' : '' %>">
                 <a class="nav-text" href="contact.html">Contact</a>
             </div>
         </div>
