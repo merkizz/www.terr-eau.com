@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['sendEmail'])) {
-    if ($_SERVER['HTTP_REFERER'] != 'http://www.terr-eau.com/v2/devis.php') {
+    if ($_SERVER['HTTP_REFERER'] != 'http://www.terr-eau.com/v2/devis') {
         exit("Opération non autorisée");
     }
 
@@ -106,46 +106,59 @@ if (isset($_POST['sendEmail'])) {
                 <div class="container">
                     <h1>Demande de devis</h1>
                     <p class="text">
-                        Pour toute demande de devis, veuillez compléter le formulaire ci-dessous. Nous vous répondrons dans les meilleurs délais.
+                        Pour toute demande de devis, merci de compléter le formulaire ci-dessous. Nous vous répondrons dans les meilleurs délais.
                     </p>
 
-                    <section class="contact-section">
-                        <form id="form-contact" name="form-contact" action="/v2/devis" method="post" onSubmit="return checkForm();">
+                    <section class="form-section">
+                        <form action="/v2/devis" method="post">
                             <div class="form-group row">
                                 <div class="col-sm-12">
-                                    <input id="name" name="name" class="form-control" placeholder="Votre nom"/>
+                                    <label for="name">Nom *</label>
+                                    <input id="name" name="name" class="form-control" placeholder="Nom" required/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-12">
-                                    <input type="email" id="email" name="email" class="form-control" placeholder="Votre email"/>
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" class="form-control" placeholder="Email" pattern="^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9.-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" required/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-12">
-                                    <input id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Votre numéro de téléphone"/>
+                                    <label for="phoneNumber">Numéro de téléphone *</label>
+                                    <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Numéro de téléphone" required/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-12">
-                                    <input id="street" name="street" class="form-control" placeholder="Votre adresse"/>
+                                    <label for="street">Adresse</label>
+                                    <input id="street" name="street" class="form-control" placeholder="Adresse"/>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <div class="col-sm-9">
-                                    <input id="city" name="city" class="form-control" placeholder="Ville"/>
+                                <div class="col-xs-8">
+                                    <label for="street">Ville *</label>
+                                    <input id="city" name="city" class="form-control" placeholder="Ville" required/>
                                 </div>
-                                <div class="col-sm-3">
+                                <div class="col-xs-4">
+                                    <label for="street">Code postal</label>
                                     <input id="zipCode" name="zipCode" class="form-control" placeholder="Code postal"/>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-12">
-                                    <textarea id="message" name="message" class="form-control" rows="10" placeholder="Votre demande"></textarea>
+                                    <label for="message">Votre demande</label>
+                                    <textarea id="message" name="message" class="form-control" rows="10" placeholder="Veuillez saisir votre demande" required></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-sm-12">
+                                    <span class="mention">* Champ obligatoire</span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <input type="hidden" name="sendEmail" value="" />
                                     <button type="submit" class="btn btn-primary center-block btn-submit">Envoyer</button>
                                 </div>
                             </div>
