@@ -3,13 +3,13 @@
 	max-width: 800px;
 	margin: 50px auto 0;
 
-	.text {
+	&-text {
 		font-size: 16px;
 		text-align: center;
 		line-height: normal;
 	}
 
-	iframe.embed {
+	&-map {
 		display: block;
 		margin: 20px auto 0;
 		width: 100%;
@@ -19,14 +19,13 @@
 
 @media (min-width: 900px) {
 	.contact-section {
-		.text {
+		&-text {
 			display: inline-block;
 			padding: 60px;
 			line-height: unset;
-			margin-bottom: 0;
 		}
 
-		iframe.embed {
+		&-map {
 			float: right;
 			margin: 0;
 		}
