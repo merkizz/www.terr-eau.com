@@ -1,0 +1,17 @@
+.form-section {
+	max-width: 600px;
+	margin: 50px auto 0;
+
+	.mention {
+		font-size: 14px;
+	}
+
+	.btn-submit {
+		background-color: $green;
+		border-color: $green-dark;
+
+		&:hover {
+			background-color: $green-dark;
+		}
+	}
+}

@@ -1,9 +1,18 @@
 .main-header {
+	position: fixed;
+	width: 100%;
+	z-index: 19999;
+
 	.main-nav {
 		height: 60px;
 		overflow: hidden;
-		background: $green;
+		background-color: $white;
 		text-align: center;
+		//border-bottom: 1px solid rgba(0,0,0,.2);
+		-ms-box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
+		-webkit-box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
+		-o-box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
+		box-shadow: 5px 5px 10px 0 rgba(0,0,0,.2);
 
 		.nav-item {
 			position: relative;
@@ -11,22 +20,35 @@
 			float: left;
 			width: auto;
 
-			&.active {
-				background: $green-dark;
-			}
+			&.active, &:hover {
+				background-color: $green;
 
-			&:hover {
-				background: $green-dark;
-				text-decoration: none;
+				.nav-text {
+					color: $white;
+				}
 			}
 
 			&.nav-toggler {
 				&:hover {
-					background: none;
+					background-color: initial;
 				}
 
 				.nav-text {
 					padding: 0 20px;
+				}
+			}
+
+			&.logo {
+				background-color: initial;
+
+				span {
+					font-size: 18px;
+					font-weight: bold;
+				}
+
+				.nav-text {
+					padding: 0 20px 0 0;
+					color: $green;
 				}
 			}
 
@@ -39,7 +61,7 @@
 				font-size: 14px;
 				text-transform: uppercase;
 				text-align: center;
-				color: $white;
+				color: $green;
 
 				@media (max-width: 1100px) {
 					padding: 0 10px;
@@ -68,7 +90,7 @@
 						position: absolute;
 						height: 2px;
 						width: 100%;
-						background: $white;
+						background-color: $green;
 						border-radius: 5px;
 						opacity: 1;
 						left: 0;
@@ -148,7 +170,7 @@
 		bottom: 0;
 		width: 100%;
 		max-width: 300px;
-		z-index: 19999;
+		z-index: 20000;
 		background-color: $white;
 		overflow-y: auto;
 		-webkit-overflow-scrolling: touch;

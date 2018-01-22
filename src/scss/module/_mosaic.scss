@@ -1,0 +1,25 @@
+.mosaic-section {
+	display: block;
+	margin: auto;
+	text-align: center;
+
+	.item {
+		display: block;
+		max-width: 300px;
+		margin: auto;
+		padding-bottom: 20px;
+
+		img {
+			height: 230px;
+			width: auto;
+		}
+	}
+
+	.title {
+		display: block;
+		margin-top: 5px;
+		text-align: center;
+		font-weight:bold;
+		color: $black;
+	}
+}
