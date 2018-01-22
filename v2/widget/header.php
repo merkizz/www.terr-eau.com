@@ -10,8 +10,11 @@
                 </div>
             </span>
         </div>
-        <div class="nav-item">
-            <a href="/v2"><img src="/v2/static/img/logo.jpg" height="60" alt="Terr'eau"/></a>
+        <div class="nav-item logo">
+            <a class="nav-text" href="/v2" title="Terr'Eau">
+                <img src="/v2/static/img/logo.png" height="50" alt="Logo Terr'eau"/>
+                <span>Terr'Eau</span>
+            </a>
         </div>
         <div class="nav-list">
             <div class="nav-item<?php if ($current == 'presentation') echo ' active'?>">

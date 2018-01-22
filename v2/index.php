@@ -13,12 +13,8 @@
     <?php include 'widget/header.php'; ?>
 
     <div class="main-wrapper">
-        <div class="row">
-            <div class="col-12">
-                <div class="container">
-                    <h1>Page d'accueil</h1>
-                </div>
-            </div>
+        <div class="container">
+            <h1>Page d'accueil</h1>
         </div>
 
         <?php include 'widget/footer.php'; ?>
