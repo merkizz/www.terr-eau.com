@@ -72,7 +72,7 @@ gulp.task('js-min', function (done) {
     bundleJsFiles({
         src: 'src/js/*.js',
         target: 'dist/js',
-        minify: true,
+        minify: false,
         watchify: false
     }, done);
 });
