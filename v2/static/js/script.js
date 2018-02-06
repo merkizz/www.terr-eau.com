@@ -69,10 +69,58 @@ var HeaderMain = /** @class */ (function () {
 }());
 exports.init();
 
-},{"../boot/user-agent":1,"../utils/dom":4}],3:[function(require,module,exports){
-require('./module/header');
+},{"../boot/user-agent":1,"../utils/dom":5}],3:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var $ = require("../utils/dom");
+exports.init = function () {
+    $('[data-role="image-slider"]').forEach(function (elem) {
+        new SliderImage(elem);
+    });
+};
+var SliderImage = /** @class */ (function () {
+    function SliderImage(container) {
+        var _this = this;
+        var width = container.getAttribute('data-width');
+        var height = container.getAttribute('data-height');
+        var position = container.getAttribute('data-position');
+        var filter = container.getAttribute('data-filter');
+        this.$container = $(container);
+        this.$imgLeft = this.$container.select('.img-left');
+        this.$imgRight = this.$container.select('.img-right');
+        this.$splitter = this.$container.select('.slider-bar');
+        this.$ranger = this.$container.select('input[type=range].slider-range');
+        this.$container.css('width', width + 'px');
+        this.$container.css('height', height + 'px');
+        this.$imgLeft.css('width', width + 'px');
+        this.$imgLeft.css('height', height + 'px');
+        this.$imgRight.css('width', width + 'px');
+        this.$imgRight.css('height', height + 'px');
+        this.$ranger.css('width', width + 'px');
+        this.$ranger.value = position;
+        if (filter) {
+            this.$imgLeft.css('-webkit-filter', filter);
+            this.$imgLeft.css('filter', filter);
+        }
+        this.setPosition(position);
+        this.$ranger.on('input', function (e) {
+            _this.setPosition(e.target.value);
+        });
+    }
+    SliderImage.prototype.setPosition = function (value) {
+        this.$imgRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + value + '%)');
+        this.$imgRight.css('clip-path', 'inset(0px 0px 0px ' + value + '%)');
+        this.$splitter.css('left', value + '%');
+    };
+    return SliderImage;
+}());
+exports.init();
 
-},{"./module/header":2}],4:[function(require,module,exports){
+},{"../utils/dom":5}],4:[function(require,module,exports){
+require('./module/header');
+require('./module/image-slider');
+
+},{"./module/header":2,"./module/image-slider":3}],5:[function(require,module,exports){
 (function (global){
 var utils = require('./utils');
 var domCss = require('./dom/css');
@@ -343,7 +391,7 @@ var array_on = function (type, delegateSelector, callback, capture) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./dom/api":5,"./dom/classes":6,"./dom/css":7,"./utils":8}],5:[function(require,module,exports){
+},{"./dom/api":6,"./dom/classes":7,"./dom/css":8,"./utils":9}],6:[function(require,module,exports){
 var utils = require('../utils');
 exports.html = function (elem, html) {
     var getter = arguments.length < 2;
@@ -413,7 +461,7 @@ exports.manyAttr = function (elem, attrs) {
     });
 };
 
-},{"../utils":8}],6:[function(require,module,exports){
+},{"../utils":9}],7:[function(require,module,exports){
 var trim = /^\s+|\s+$/g;
 var whitespace = /\s+/;
 var utils = require('../utils');
@@ -465,7 +513,7 @@ module.exports = {
     get: classes
 };
 
-},{"../utils":8}],7:[function(require,module,exports){
+},{"../utils":9}],8:[function(require,module,exports){
 var utils = require('../utils');
 var numericCssProperties = {
     'column-count': true,
@@ -522,7 +570,7 @@ exports.setCss = function (props) {
     };
 };
 
-},{"../utils":8}],8:[function(require,module,exports){
+},{"../utils":9}],9:[function(require,module,exports){
 /**
  * Determines if an element is displayed using offsetWidth and offsetHeight.
  */
@@ -568,4 +616,4 @@ exports.hyphenate = function (text) {
     return text.replace(camel, '$1-$2').toLowerCase();
 };
 
-},{}]},{},[3]);
+},{}]},{},[4]);
