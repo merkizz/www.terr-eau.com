@@ -24,7 +24,7 @@ if (isset($_POST['sendEmail'])) {
     <!DOCTYPE html>
     <html lang=\"fr-FR\">
     <head>
-        <title>Terre'Eau - Demande de devis</title>
+        <title>Terr'Eau - Demande de devis</title>
     </head>
     <body bgcolor=\"#efefef\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\">
         <table width=\"700\" bgcolor=\"#ffffff\" border=\"0\" cellspacing=\"0\" cellpadding=\"5\" align=\"center\" style=\"margin-top: 30px; padding: 20px\">
@@ -88,7 +88,7 @@ if (isset($_POST['sendEmail'])) {
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>Demande de devis - Terre'Eau</title>
+    <title>Demande de devis - Terr'Eau</title>
     <meta name="description" content="">
     <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
 

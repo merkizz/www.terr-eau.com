@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <title>Terre'Eau - Jardiniers paysagistes en Seine-Saint-Denis, entretien des espaces verts</title>
+    <title>Terr'Eau - Jardiniers paysagistes en Seine-Saint-Denis, entretien des espaces verts</title>
     <meta name="description" content="">
     <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
 
