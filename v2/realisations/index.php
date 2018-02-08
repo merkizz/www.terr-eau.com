@@ -20,29 +20,25 @@
             <h1>Nos réalisations</h1>
 
             <section class="mosaic-section">
-                <div class="col-xs-12">
-                    <a href="/v2/realisations/remise-en-etat" class="item">
-                        <img src="../static/img/realisations/remise-en-etat-879x440.jpg" width="879" height="440" alt=""/>
-                        <span class="tag">Remise en état</span>
-                    </a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="/v2/realisations/gazon" class="item">
-                        <img src="../static/img/realisations/gazon-879x440.jpg" width="879" height="440" alt=""/>
-                        <span class="tag">Gazon</span>
-                    </a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="#" class="item">
-                        <img src="../static/img/realisations/creation-879x440.jpg" width="879" height="440" alt=""/>
-                        <span class="tag">Création</span>
-                    </a>
-                </div>
-                <div class="col-xs-12">
-                    <a href="/v2/realisations/abattage" class="item">
-                        <img src="../static/img/realisations/elagage-abattage-879x440.jpg" width="879" height="440" alt=""/>
-                        <span class="tag">Elagage / Abattage</span>
-                    </a>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="/v2/realisations/remise-en-etat" class="item">
+                            <img src="../static/img/realisations/remise-en-etat-879x440.jpg" width="879" height="440" alt=""/>
+                            <span class="tag">Remise en état</span>
+                        </a>
+                        <a href="/v2/realisations/gazon" class="item">
+                            <img src="../static/img/realisations/gazon-879x440.jpg" width="879" height="440" alt=""/>
+                            <span class="tag">Gazon</span>
+                        </a>
+                        <a href="#" class="item">
+                            <img src="../static/img/realisations/creation-879x440.jpg" width="879" height="440" alt=""/>
+                            <span class="tag">Création</span>
+                        </a>
+                        <a href="/v2/realisations/elagage-abattage" class="item">
+                            <img src="../static/img/realisations/elagage-abattage-879x440.jpg" width="879" height="440" alt=""/>
+                            <span class="tag">Elagage / Abattage</span>
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>
