@@ -7,39 +7,57 @@ export let init = () => {
 };
 
 class SliderImage {
+    $containerHtml: any;
     $container: any;
     $imgLeft: any;
     $imgRight: any;
     $splitter: any;
     $ranger: any;
 
-    constructor(container) {
-        let width = container.getAttribute('data-width');
-        let height = container.getAttribute('data-height');
-        let position = container.getAttribute('data-position');
-        let filter = container.getAttribute('data-filter');
+    $width: number;
+    $height: number;
+    $position: number;
+    $filter: string;
 
-        this.$container = $(container);
+    constructor(container) {
+        this.$containerHtml = container;
+        this.$container = $(this.$containerHtml);
         this.$imgLeft = this.$container.select('.img-left');
         this.$imgRight = this.$container.select('.img-right');
         this.$splitter = this.$container.select('.slider-bar');
         this.$ranger = this.$container.select('input[type=range].slider-range');
 
-        this.$container.css('width', width + 'px');
-        this.$container.css('height', height + 'px');
-        this.$imgLeft.css('width', width + 'px');
-        this.$imgLeft.css('height', height + 'px');
-        this.$imgRight.css('width', width + 'px');
-        this.$imgRight.css('height', height + 'px');
-        this.$ranger.css('width', width + 'px');
-        this.$ranger.value = position;
+        this.$width = container.getAttribute('data-width');
+        this.$height = container.getAttribute('data-height');
+        this.$position = container.getAttribute('data-position');
+        this.$filter = container.getAttribute('data-filter');
 
-        if (filter) {
-            this.$imgLeft.css('-webkit-filter', filter);
-            this.$imgLeft.css('filter', filter);
+        this.$imgLeft.css('width', this.$width + 'px');
+        this.$imgLeft.css('height', this.$height + 'px');
+        this.$imgRight.css('width', this.$width + 'px');
+        this.$imgRight.css('height', this.$height + 'px');
+        this.$ranger.css('width', this.$width + 'px');
+        this.$ranger.value = this.$position;
+
+        if (this.$filter) {
+            this.$imgLeft.css('-webkit-filter', this.$filter);
+            this.$imgLeft.css('filter', this.$filter);
         }
 
-        this.setPosition(position);
+        let baseImg = container.getElementsByClassName('img-left')[0];
+        let containerWidth = baseImg.getBoundingClientRect().width;
+        let containerHeight = containerWidth * this.$height / this.$width;
+
+        console.log(baseImg);
+        console.log(baseImg.getBoundingClientRect());
+        console.log('w=' + containerWidth + ', h=' + containerHeight);
+
+        this.$container.css('width', containerWidth + 'px');
+        this.$container.css('height', containerHeight + 'px');
+
+        // console.log('container : w=' + containerWidth + ', h=' + containerHeight);
+
+        this.setPosition(this.$position);
 
         this.$ranger.on('input', (e) => {
             this.setPosition(e.target.value);
