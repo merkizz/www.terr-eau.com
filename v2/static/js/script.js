@@ -81,28 +81,36 @@ exports.init = function () {
 var SliderImage = /** @class */ (function () {
     function SliderImage(container) {
         var _this = this;
-        var width = container.getAttribute('data-width');
-        var height = container.getAttribute('data-height');
-        var position = container.getAttribute('data-position');
-        var filter = container.getAttribute('data-filter');
-        this.$container = $(container);
+        this.$containerHtml = container;
+        this.$container = $(this.$containerHtml);
         this.$imgLeft = this.$container.select('.img-left');
         this.$imgRight = this.$container.select('.img-right');
         this.$splitter = this.$container.select('.slider-bar');
         this.$ranger = this.$container.select('input[type=range].slider-range');
-        this.$container.css('width', width + 'px');
-        this.$container.css('height', height + 'px');
-        this.$imgLeft.css('width', width + 'px');
-        this.$imgLeft.css('height', height + 'px');
-        this.$imgRight.css('width', width + 'px');
-        this.$imgRight.css('height', height + 'px');
-        this.$ranger.css('width', width + 'px');
-        this.$ranger.value = position;
-        if (filter) {
-            this.$imgLeft.css('-webkit-filter', filter);
-            this.$imgLeft.css('filter', filter);
+        this.$width = container.getAttribute('data-width');
+        this.$height = container.getAttribute('data-height');
+        this.$position = container.getAttribute('data-position');
+        this.$filter = container.getAttribute('data-filter');
+        this.$imgLeft.css('width', this.$width + 'px');
+        this.$imgLeft.css('height', this.$height + 'px');
+        this.$imgRight.css('width', this.$width + 'px');
+        this.$imgRight.css('height', this.$height + 'px');
+        this.$ranger.css('width', this.$width + 'px');
+        this.$ranger.value = this.$position;
+        if (this.$filter) {
+            this.$imgLeft.css('-webkit-filter', this.$filter);
+            this.$imgLeft.css('filter', this.$filter);
         }
-        this.setPosition(position);
+        var baseImg = container.getElementsByClassName('img-left')[0];
+        var containerWidth = baseImg.getBoundingClientRect().width;
+        var containerHeight = containerWidth * this.$height / this.$width;
+        console.log(baseImg);
+        console.log(baseImg.getBoundingClientRect());
+        console.log('w=' + containerWidth + ', h=' + containerHeight);
+        this.$container.css('width', containerWidth + 'px');
+        this.$container.css('height', containerHeight + 'px');
+        // console.log('container : w=' + containerWidth + ', h=' + containerHeight);
+        this.setPosition(this.$position);
         this.$ranger.on('input', function (e) {
             _this.setPosition(e.target.value);
         });
