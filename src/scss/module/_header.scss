@@ -31,6 +31,12 @@
 			}
 
 			&.nav-toggler {
+				display: none;
+
+				@media (max-width: 900px) {
+					display: block;
+				}
+
 				&:hover {
 					background-color: initial;
 				}
@@ -49,7 +55,7 @@
 				}
 
 				.nav-text {
-					padding: 0 20px 0 0;
+					padding: 0;
 					color: $green;
 				}
 			}
@@ -59,8 +65,8 @@
 				overflow: hidden;
 				height: $main-header-height;
 				line-height: $main-header-height;
-				padding: 0 20px;
-				font-size: 16px;
+				padding: 0 10px;
+				font-size: 14px;
 				text-transform: uppercase;
 				text-align: center;
 				color: $green;
@@ -157,6 +163,21 @@
 			@media (max-width: 900px) {
 				display: none;
 			}
+		}
+	}
+
+	.nav-slide-backdrop {
+		position: fixed;
+		top: $main-header-height;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: transparent;
+		z-index: 19999;
+		display: none;
+
+		&.active {
+			display: block;
 		}
 	}
 
