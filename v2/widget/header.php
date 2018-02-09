@@ -37,7 +37,7 @@
             </div>
         </div>
     </nav>
-
+    <div class="nav-slide-backdrop" data-role="nav-backdrop"></div>
     <div class="nav-slide" data-role="nav-slide">
         <div class="nav-item<?php if ($current == 'presentation') echo ' active'?>">
             <a class="nav-text" href="/v2/presentation">Présentation</a>

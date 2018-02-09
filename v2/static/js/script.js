@@ -37,13 +37,15 @@ exports.init = function () {
 };
 exports.DATA_ROLE = {
     NAV_TOGGLER: 'nav-toggler',
-    NAV_SLIDE: 'nav-slide',
+    NAV_BACKDROP: 'nav-backdrop',
+    NAV_SLIDE: 'nav-slide'
 };
 var HeaderMain = /** @class */ (function () {
     function HeaderMain(header) {
         var _this = this;
         this.$header = $(header);
         this.$toggler = $(this.$header.select("[data-role=\"" + exports.DATA_ROLE.NAV_TOGGLER + "\"]")[0]);
+        this.$navBackdrop = $(this.$header.select("[data-role=\"" + exports.DATA_ROLE.NAV_BACKDROP + "\"]")[0]);
         this.$navSlide = $(this.$header.select("[data-role=\"" + exports.DATA_ROLE.NAV_SLIDE + "\"]")[0]);
         if (userAgent.isIE() && userAgent.getIEVersion() <= 9) {
             this.$navSlide.addClass('old-ie');
@@ -52,15 +54,21 @@ var HeaderMain = /** @class */ (function () {
             e.preventDefault();
             _this.toggle();
         });
+        this.$navBackdrop.on('click', function (e) {
+            e.preventDefault();
+            _this.toggle();
+        });
     }
     HeaderMain.prototype.toggle = function () {
         if (this.$navSlide.hasClass('active')) {
             $('body').removeClass('fixed');
+            this.$navBackdrop.removeClass('active');
             this.$navSlide.removeClass('active');
             this.$toggler.selectByClass('burger').removeClass('open');
         }
         else {
             $('body').addClass('fixed');
+            this.$navBackdrop.addClass('active');
             this.$navSlide.addClass('active');
             this.$toggler.selectByClass('burger').addClass('open');
         }
