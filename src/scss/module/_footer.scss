@@ -1,8 +1,29 @@
 .footer {
 	display: block;
-	width: 100%;
-	padding: 50px 30px 20px;
-	margin: 0 auto;
-	font-size: 14px;
-	text-align: center;
+	margin-top: 40px;
+	padding: 20px 30px;
+	background-color: $grey;
+
+	.text {
+		display: inline-block;
+		text-align: left;
+		line-height: 26px;
+		font-size: 16px;
+		font-weight: bold;
+
+		&.right {
+			float: right;
+			text-align: right;
+		}
+
+		@media (max-width: 900px) {
+			display: block;
+			text-align: center;
+
+			&.right {
+				float: none;
+				text-align: center;
+			}
+		}
+	}
 }
