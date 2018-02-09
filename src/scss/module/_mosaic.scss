@@ -2,18 +2,12 @@
 	display: block;
 	margin: auto;
 	text-align: center;
-	padding-left: 20px;
-	padding-right: 20px;
-
-	@media (max-width: 900px) {
-		padding-left: 0;
-		padding-right: 0;
-	}
+	max-width: 960px;
 
 	.item {
 		position: relative;
 		display: block;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 
 		:hover {
 			filter: brightness(90%);
