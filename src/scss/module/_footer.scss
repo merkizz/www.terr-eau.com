@@ -2,7 +2,16 @@
 	display: block;
 	margin-top: 40px;
 	padding: 20px 30px;
-	background-color: $grey;
+	background-color: $grey-dark;
+
+	.slogan {
+		display: block;
+		font-family: 'Brush Script MT', Arial, Verdana, sans-serif;
+		font-size: 36px;
+		color: $green;
+		text-align: right;
+		margin-bottom: 20px;
+	}
 
 	.text {
 		display: inline-block;
@@ -15,8 +24,16 @@
 			float: right;
 			text-align: right;
 		}
+	}
+}
 
-		@media (max-width: 900px) {
+@media (max-width: 900px) {
+	.footer {
+		.slogan {
+			text-align: center;
+		}
+
+		.text {
 			display: block;
 			text-align: center;
 
