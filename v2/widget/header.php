@@ -11,9 +11,8 @@
             </span>
         </div>
         <div class="nav-item logo">
-            <a class="nav-text" href="/v2" title="Terr'Eau">
-                <img src="/v2/static/img/logo.png" height="50" alt="Logo Terr'eau"/>
-                <span>Terr'Eau</span>
+            <a class="nav-text" href="/v2" title="SARL Terr'eau">
+                <img src="/v2/static/img/logo-585x105.png" height="50" alt="Logo Terr'eau"/>
             </a>
         </div>
         <div class="nav-list">
