@@ -1,4 +1,5 @@
 <div class="footer">
+    <div class="slogan">Notre créativité à votre service</div>
     <div class="text">
         SARL TERR'EAU
         <br>50, Avenue René Faugeras
