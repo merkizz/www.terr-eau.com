@@ -9,8 +9,8 @@
 		font-family: 'Brush Script MT', Arial, Verdana, sans-serif;
 		font-size: 36px;
 		color: $green;
+		float: right;
 		text-align: right;
-		margin-bottom: 20px;
 	}
 
 	.text {
@@ -19,28 +19,20 @@
 		line-height: 26px;
 		font-size: 16px;
 		font-weight: bold;
-
-		&.right {
-			float: right;
-			text-align: right;
-		}
 	}
 }
 
 @media (max-width: 900px) {
 	.footer {
 		.slogan {
+			margin-bottom: 20px;
+			float: none;
 			text-align: center;
 		}
 
 		.text {
 			display: block;
 			text-align: center;
-
-			&.right {
-				float: none;
-				text-align: center;
-			}
 		}
 	}
 }
