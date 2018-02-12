@@ -17,9 +17,6 @@
             </a>
         </div>
         <div class="nav-list">
-            <div class="nav-item <%= locals.current == 'presentation' ? 'active' : '' %>">
-                <a class="nav-text" href="presentation.html">Présentation</a>
-            </div>
             <div class="nav-item <%= locals.current == 'competences' ? 'active' : '' %>">
                 <a class="nav-text" href="competences.html">Compétences</a>
             </div>
@@ -39,22 +36,19 @@
     </nav>
     <div class="nav-slide-backdrop" data-role="nav-backdrop"></div>
     <div class="nav-slide" data-role="nav-slide">
-        <div class="nav-item active">
-            <a class="nav-text" href="presentation.html">Présentation</a>
-        </div>
-        <div class="nav-item">
+        <div class="nav-item <%= locals.current == 'competences' ? 'active' : '' %>">
             <a class="nav-text" href="competences.html">Compétences</a>
         </div>
-        <div class="nav-item">
+        <div class="nav-item <%= locals.current == 'activites' ? 'active' : '' %>">
             <a class="nav-text" href="activites.html">Activités</a>
         </div>
-        <div class="nav-item">
+        <div class="nav-item <%= locals.current == 'realisations' ? 'active' : '' %>">
             <a class="nav-text" href="realisations.html">Réalisations</a>
         </div>
-        <div class="nav-item">
+        <div class="nav-item <%= locals.current == 'devis' ? 'active' : '' %>">
             <a class="nav-text" href="devis.html">Demande de devis</a>
         </div>
-        <div class="nav-item">
+        <div class="nav-item <%= locals.current == 'contact' ? 'active' : '' %>">
             <a class="nav-text" href="contact.html">Contact</a>
         </div>
     </div>
