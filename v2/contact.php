@@ -25,7 +25,6 @@
             <section class="contact-section">
                 <div class="contact-section-text">
                     <img src="/v2/static/img/logo-440x105.png" height="50" alt="Logo SARL Terr'eau"/>
-                    <br>
                     <br>50, Avenue René Faugeras
                     <br>93220 GAGNY
                     <br>
