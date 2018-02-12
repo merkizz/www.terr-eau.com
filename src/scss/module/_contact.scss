@@ -1,35 +1,42 @@
 .contact-section {
 	display: block;
-	max-width: 840px;
-	margin: 50px auto 0;
+    margin: 50px auto 0;
 	padding-left: 20px;
 	padding-right: 20px;
 
 	&-text {
+		display: inline-block;
+		width: 40%;
+		padding: 110px 0;
+		margin: auto;
 		font-size: 16px;
 		text-align: center;
-		line-height: normal;
 	}
 
 	&-map {
-		display: block;
-		margin: 20px auto 0;
-		width: 100%;
-		max-width: 450px;
+		width: 60%;
+		float: right;
+		margin: 0;
 	}
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
 	.contact-section {
+		padding-left: 0;
+		padding-right: 0;
+
 		&-text {
-			display: inline-block;
-			padding: 60px;
-			line-height: unset;
+			display: block;
+			padding: 0;
+			line-height: normal;
 		}
 
 		&-map {
-			float: right;
-			margin: 0;
+			display: block;
+			width: 100%;
+			float: none;
+			margin: 20px auto 0;
+			max-width: 100%;
 		}
 	}
 }
