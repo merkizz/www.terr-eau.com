@@ -9,10 +9,6 @@
 		display: block;
 		padding-bottom: 10px;
 
-		:hover {
-			filter: brightness(90%);
-		}
-
 		img {
 			width: 100%;
 			height: auto;
@@ -42,5 +38,9 @@
 				font-size: 20px;
 			}
 		}
+	}
+
+	a.item:hover {
+		filter: brightness(90%);
 	}
 }

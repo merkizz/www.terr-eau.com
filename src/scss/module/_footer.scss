@@ -4,11 +4,8 @@
 	padding: 20px 30px;
 	background-color: $grey-dark;
 
-	.slogan {
+	.baseline {
 		display: block;
-		font-family: 'Brush Script MT', Arial, Verdana, sans-serif;
-		font-size: 36px;
-		color: $green;
 		float: right;
 		text-align: right;
 	}
@@ -19,12 +16,17 @@
 		line-height: 26px;
 		font-size: 16px;
 		font-weight: bold;
+
+		.logo {
+			height: 50px;
+			width: auto;
+		}
 	}
 }
 
 @media (max-width: 900px) {
 	.footer {
-		.slogan {
+		.baseline {
 			margin-bottom: 20px;
 			float: none;
 			text-align: center;
