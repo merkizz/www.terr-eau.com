@@ -19,22 +19,48 @@
         <div class="container">
             <h1>Remise en état</h1>
 
-            <div class="img-slider" data-role="image-slider" data-width="960" data-height="720" data-position="80" data-filter="sepia(20%)">
-                <img src="../static/img/realisations/remise-en-etat/1-1.jpg" class="img-left" width="960" height="720"/>
-                <img src="../static/img/realisations/remise-en-etat/1-2.jpg" class="img-right" width="960" height="720"/>
-                <span class="slider-bar"></span>
+            <div class="img-slider" data-role="image-slider" data-width="960" data-height="720" data-position="70" data-filter="sepia(20%)">
+                <div class="img-wrapper left">
+                    <img src="../static/img/realisations/remise-en-etat/1-1.jpg" class="img" width="960" height="720"/>
+                    <span class="tag"></span>
+                </div>
+                <div class="img-wrapper right">
+                    <img src="../static/img/realisations/remise-en-etat/1-2.jpg" class="img" width="960" height="720"/>
+                    <span class="tag"></span>
+                </div>
+                <span class="slider-bar">
+                    <span></span>
+                </span>
                 <input type="range" class="slider-range" min="0" max="100" step="0.01">
             </div>
-            <div class="img-slider" data-role="image-slider" data-width="960" data-height="720" data-position="80" data-filter="sepia(20%)">
-                <img src="../static/img/realisations/remise-en-etat/2-1.jpg" class="img-left" width="960" height="720"/>
-                <img src="../static/img/realisations/remise-en-etat/2-2.jpg" class="img-right" width="960" height="720"/>
-                <span class="slider-bar"></span>
+
+            <div class="img-slider" data-role="image-slider" data-width="960" data-height="720" data-position="70" data-filter="sepia(20%)">
+                <div class="img-wrapper left">
+                    <img src="../static/img/realisations/remise-en-etat/2-1.jpg" class="img" width="960" height="720"/>
+                    <span class="tag"></span>
+                </div>
+                <div class="img-wrapper right">
+                    <img src="../static/img/realisations/remise-en-etat/2-2.jpg" class="img" width="960" height="720"/>
+                    <span class="tag"></span>
+                </div>
+                <span class="slider-bar">
+                    <span></span>
+                </span>
                 <input type="range" class="slider-range" min="0" max="100" step="0.01">
             </div>
-            <div class="img-slider" data-role="image-slider" data-width="495" data-height="660" data-position="80" data-filter="sepia(20%)">
-                <img src="../static/img/realisations/remise-en-etat/3-1.jpg" class="img-left" width="495" height="660"/>
-                <img src="../static/img/realisations/remise-en-etat/3-2.jpg" class="img-right" width="495" height="660"/>
-                <span class="slider-bar"></span>
+
+            <div class="img-slider" data-role="image-slider" data-width="495" data-height="660" data-position="50" data-filter="sepia(20%)">
+                <div class="img-wrapper left">
+                    <img src="../static/img/realisations/remise-en-etat/3-1.jpg" class="img" width="495" height="660"/>
+                    <span class="tag"></span>
+                </div>
+                <div class="img-wrapper right">
+                    <img src="../static/img/realisations/remise-en-etat/3-2.jpg" class="img" width="495" height="660"/>
+                    <span class="tag"></span>
+                </div>
+                <span class="slider-bar">
+                    <span></span>
+                </span>
                 <input type="range" class="slider-range" min="0" max="100" step="0.01">
             </div>
         </div>
