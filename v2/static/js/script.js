@@ -123,7 +123,7 @@ var SliderImage = /** @class */ (function () {
     SliderImage.prototype.setPosition = function (value) {
         this.$imgRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + value + '%)');
         this.$imgRight.css('clip-path', 'inset(0px 0px 0px ' + value + '%)');
-        this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 100 ? 0 : 5) + 'px)');
+        this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 0 ? 5 : 0) + 'px)');
         var tagRightClipPath = 110 - (this.$containerWidth - this.$splitter.css('left'));
         this.$tagRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px)');
         this.$tagRight.css('clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px))');
