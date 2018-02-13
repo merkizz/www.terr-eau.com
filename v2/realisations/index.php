@@ -21,7 +21,7 @@
 
             <section class="mosaic-section">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-sm-12">
                         <a href="/v2/realisations/remise-en-etat" class="item">
                             <img src="../static/img/realisations/remise-en-etat-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Remise en état</span>

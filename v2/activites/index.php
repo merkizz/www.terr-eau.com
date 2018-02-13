@@ -21,7 +21,7 @@
 
             <section class="mosaic-section">
                 <div class="row">
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="item">
                             <img src="../static/img/activites/entretien.jpg" width="591" height="478" alt="Entretien"/>
                             <span class="title">Entretien</span>
@@ -31,7 +31,7 @@
                             <span class="title">Maçonnerie paysagère</span>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-md-6 col-lg-4">
                         <div class="item">
                             <img src="../static/img/activites/creation.jpg" width="591" height="478" alt="Création"/>
                             <span class="title">Création</span>
@@ -41,15 +41,15 @@
                             <span class="title">Eclairage extérieur</span>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <div class="row">
-                            <div class="col-sm-6 col-md-12">
+                            <div class="col-md-6 col-lg-12">
                                 <div class="item">
                                     <img src="../static/img/activites/elagage.jpg" width="591" height="478" alt="Elagage"/>
                                     <span class="title">Elagage</span>
                                 </div>
                             </div>
-                            <div class="col-sm-6 col-md-12">
+                            <div class="col-md-6 col-lg-12">
                                 <div class="item">
                                     <img src="../static/img/activites/arrosage.jpg" width="591" height="478" alt="Arrosage"/>
                                     <span class="title">Arrosage</span>

@@ -21,7 +21,7 @@
 
             <section class="mosaic-section">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-sm-12">
                         <div class="item">
                             <img src="../static/img/realisations/gazon/1.jpg" width="879" height="495" alt=""/>
                         </div>

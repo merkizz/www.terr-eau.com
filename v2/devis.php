@@ -110,52 +110,52 @@ if (isset($_POST['sendEmail'])) {
             <section class="form-section">
                 <form action="/v2/devis" method="post">
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <label for="name">Nom *</label>
                             <input id="name" name="name" class="form-control" placeholder="Nom" required/>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <label for="email">Email *</label>
                             <input type="email" id="email" name="email" class="form-control" placeholder="Email" pattern="^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9.-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" required/>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <label for="phoneNumber">Numéro de téléphone *</label>
                             <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control" placeholder="Numéro de téléphone" required/>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <label for="street">Adresse</label>
                             <input id="street" name="street" class="form-control" placeholder="Adresse"/>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-xs-7">
+                        <div class="col-sm-7">
                             <label for="street">Ville *</label>
                             <input id="city" name="city" class="form-control" placeholder="Ville" required/>
                         </div>
-                        <div class="col-xs-5">
+                        <div class="col-sm-5">
                             <label for="street">Code postal</label>
                             <input id="zipCode" name="zipCode" class="form-control" placeholder="Code postal"/>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <label for="message">Votre demande</label>
                             <textarea id="message" name="message" class="form-control" rows="10" placeholder="Veuillez saisir votre demande" required></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <span class="mention">* Champ obligatoire</span>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <div class="col-sm-12">
+                        <div class="col-md-12">
                             <input type="hidden" name="sendEmail" value="" />
                             <button type="submit" class="btn btn-primary center-block btn-submit">Envoyer</button>
                         </div>
