@@ -1,6 +1,6 @@
 <div class="footer">
     <div class="baseline">
-        <img src="/v2/static/img/baseline.png" width="360" height="50" alt=""/>
+        <img src="/v2/static/img/baseline.png" width="360" height="50" alt="Notre créativité à votre service"/>
     </div>
     <div class="text">
         <img class="logo" src="/v2/static/img/logo-440x105.png" width="440" height="105" alt="SARL Terr'eau"/>
