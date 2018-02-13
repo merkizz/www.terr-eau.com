@@ -11,6 +11,7 @@ class SliderImage {
     $container: any;
     $imgLeft: any;
     $imgRight: any;
+    $tagRight: any;
     $splitter: any;
     $ranger: any;
 
@@ -19,11 +20,15 @@ class SliderImage {
     $position: number;
     $filter: string;
 
+    $containerWidth: number;
+    $containerHeight: number;
+
     constructor(container) {
         this.$containerHtml = container;
         this.$container = $(this.$containerHtml);
-        this.$imgLeft = this.$container.select('.img-left');
-        this.$imgRight = this.$container.select('.img-right');
+        this.$imgLeft = this.$container.select('.img-wrapper.left .img');
+        this.$imgRight = this.$container.select('.img-wrapper.right .img');
+        this.$tagRight = this.$container.select('.img-wrapper.right .tag');
         this.$splitter = this.$container.select('.slider-bar');
         this.$ranger = this.$container.select('input[type=range].slider-range');
 
@@ -44,18 +49,12 @@ class SliderImage {
             this.$imgLeft.css('filter', this.$filter);
         }
 
-        let baseImg = container.getElementsByClassName('img-left')[0];
-        let containerWidth = baseImg.getBoundingClientRect().width;
-        let containerHeight = containerWidth * this.$height / this.$width;
+        let baseImg = container.getElementsByTagName('img')[0];
+        this.$containerWidth = baseImg.getBoundingClientRect().width;
+        this.$containerHeight = this.$containerWidth * this.$height / this.$width;
 
-        console.log(baseImg);
-        console.log(baseImg.getBoundingClientRect());
-        console.log('w=' + containerWidth + ', h=' + containerHeight);
-
-        this.$container.css('width', containerWidth + 'px');
-        this.$container.css('height', containerHeight + 'px');
-
-        // console.log('container : w=' + containerWidth + ', h=' + containerHeight);
+        this.$container.css('width', this.$containerWidth + 'px');
+        this.$container.css('height', this.$containerHeight + 'px');
 
         this.setPosition(this.$position);
 
@@ -67,7 +66,11 @@ class SliderImage {
     setPosition(value) {
         this.$imgRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + value + '%)');
         this.$imgRight.css('clip-path', 'inset(0px 0px 0px ' + value + '%)');
-        this.$splitter.css('left', value + '%');
+        this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 100 ? 0 : 5) + 'px)');
+
+        let tagRightClipPath = 110 - (this.$containerWidth - this.$splitter.css('left'));
+        this.$tagRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px)');
+        this.$tagRight.css('clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px))');
     }
 }
 
