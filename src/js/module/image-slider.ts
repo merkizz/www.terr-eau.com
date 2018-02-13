@@ -66,7 +66,7 @@ class SliderImage {
     setPosition(value) {
         this.$imgRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + value + '%)');
         this.$imgRight.css('clip-path', 'inset(0px 0px 0px ' + value + '%)');
-        this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 100 ? 0 : 5) + 'px)');
+        this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 0 ? 5 : 0) + 'px)');
 
         let tagRightClipPath = 110 - (this.$containerWidth - this.$splitter.css('left'));
         this.$tagRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px)');
