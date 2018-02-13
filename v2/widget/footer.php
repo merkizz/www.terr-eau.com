@@ -1,7 +1,9 @@
 <div class="footer">
-    <div class="slogan">Notre créativité à votre service</div>
+    <div class="baseline">
+        <img src="/v2/static/img/baseline.png" width="360" height="50" alt=""/>
+    </div>
     <div class="text">
-        <img src="/v2/static/img/logo-440x105.png" height="50" alt="Logo SARL Terr'eau"/>
+        <img class="logo" src="/v2/static/img/logo-440x105.png" width="440" height="105" alt="SARL Terr'eau"/>
         <br>50, Avenue René Faugeras
         <br> 93220 GAGNY
         <br>Tél. : 01 49 32 00 63
