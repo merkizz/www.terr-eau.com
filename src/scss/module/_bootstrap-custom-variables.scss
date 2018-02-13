@@ -1,0 +1,40 @@
+// Grids
+
+$enable-flex: true;
+
+$grid-columns:      12;
+$grid-gutter-width: 30px; // 20px right and 20px left
+
+$grid-gutter-widths: (
+        xs: 0,
+        sm: 0,
+        md: $grid-gutter-width,
+        lg: $grid-gutter-width
+);
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+        xs: 0,
+  // Small screen / phone
+        sm: 301px,
+  // Medium screen / tablet
+        md: 651px,
+  // Large screen / desktop
+        lg: 901px
+);
+
+$container-max-widths: (
+        sm: 650px,
+        md: 860px,
+        lg: 960px
+);
+
+// Forms
+$input-bg: $white;
+$input-border-color: $grey-dark;
+//$input-focus-bg: $input-bg;
+//$input-focus-border-color: $green-dark;
+$input-placeholder-color: #868e96;
+
+// Input Group
+//$input-group-addon-bg: $input-bg;
