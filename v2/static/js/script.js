@@ -110,7 +110,7 @@ var SliderImage = /** @class */ (function () {
             this.$imgLeft.css('-webkit-filter', this.$filter);
             this.$imgLeft.css('filter', this.$filter);
         }
-        var baseImg = container.getElementsByTagName('img')[0];
+        var baseImg = this.$containerHtml.getElementsByTagName('img')[0];
         this.$containerWidth = baseImg.getBoundingClientRect().width;
         this.$containerHeight = this.$containerWidth * this.$height / this.$width;
         this.$container.css('width', this.$containerWidth + 'px');
@@ -124,7 +124,9 @@ var SliderImage = /** @class */ (function () {
         this.$imgRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + value + '%)');
         this.$imgRight.css('clip-path', 'inset(0px 0px 0px ' + value + '%)');
         this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 0 ? 5 : 0) + 'px)');
-        var tagRightClipPath = 110 - (this.$containerWidth - this.$splitter.css('left'));
+        var tagRightElement = this.$containerHtml.getElementsByClassName('tag')[1];
+        var tagRightPosition = this.$containerWidth - tagRightElement.getBoundingClientRect().width - this.$tagRight.css('right');
+        var tagRightClipPath = this.$splitter.css('left') - tagRightPosition;
         this.$tagRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px)');
         this.$tagRight.css('clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px))');
     };

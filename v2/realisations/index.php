@@ -30,7 +30,7 @@
                             <img src="../static/img/realisations/gazon-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Gazon</span>
                         </a>
-                        <a href="#" class="item">
+                        <a href="/v2/realisations/creation" class="item">
                             <img src="../static/img/realisations/creation-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Création</span>
                         </a>

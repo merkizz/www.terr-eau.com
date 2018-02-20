@@ -17,7 +17,7 @@
 
     <div class="main-wrapper">
         <div class="container">
-            <h1>Gazon</h1>
+            <h1>Elagage / Abattage</h1>
 
             <section class="mosaic-section">
                 <div class="row">
