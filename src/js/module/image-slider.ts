@@ -49,7 +49,7 @@ class SliderImage {
             this.$imgLeft.css('filter', this.$filter);
         }
 
-        let baseImg = container.getElementsByTagName('img')[0];
+        let baseImg = this.$containerHtml.getElementsByTagName('img')[0];
         this.$containerWidth = baseImg.getBoundingClientRect().width;
         this.$containerHeight = this.$containerWidth * this.$height / this.$width;
 
@@ -68,7 +68,9 @@ class SliderImage {
         this.$imgRight.css('clip-path', 'inset(0px 0px 0px ' + value + '%)');
         this.$splitter.css('left', 'calc(' + value + '% - ' + (value == 0 ? 5 : 0) + 'px)');
 
-        let tagRightClipPath = 110 - (this.$containerWidth - this.$splitter.css('left'));
+        let tagRightElement = this.$containerHtml.getElementsByClassName('tag')[1];
+        let tagRightPosition = this.$containerWidth - tagRightElement.getBoundingClientRect().width - this.$tagRight.css('right');
+        let tagRightClipPath = this.$splitter.css('left') - tagRightPosition;
         this.$tagRight.css('-webkit-clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px)');
         this.$tagRight.css('clip-path', 'inset(0px 0px 0px ' + tagRightClipPath + 'px))');
     }
