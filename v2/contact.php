@@ -24,7 +24,7 @@
             </p>
             <section class="contact-section">
                 <div class="contact-section-text">
-                    <img class="logo" src="/v2/static/img/logo-440x105.png" width="440" height="105" alt="SARL Terr'eau"/>
+                    <img class="logo" src="/v2/static/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
                     <br>50, Avenue René Faugeras
                     <br>93220 GAGNY
                     <br>
