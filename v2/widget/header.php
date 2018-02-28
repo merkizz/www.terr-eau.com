@@ -16,9 +16,6 @@
             </a>
         </div>
         <div class="nav-list">
-            <div class="nav-item<?php if ($current == 'competences') echo ' active'?>">
-                <a class="nav-text" href="/v2/competences">Compétences</a>
-            </div>
             <div class="nav-item<?php if ($current == 'activites') echo ' active'?>">
                 <a class="nav-text" href="/v2/activites">Activités</a>
             </div>
@@ -35,9 +32,6 @@
     </nav>
     <div class="nav-slide-backdrop" data-role="nav-backdrop"></div>
     <div class="nav-slide" data-role="nav-slide">
-        <div class="nav-item<?php if ($current == 'competences') echo ' active'?>">
-            <a class="nav-text" href="/v2/competences">Compétences</a>
-        </div>
         <div class="nav-item<?php if ($current == 'activites') echo ' active'?>">
             <a class="nav-text" href="/v2/activites">Activités</a>
         </div>

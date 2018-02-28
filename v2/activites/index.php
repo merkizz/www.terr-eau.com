@@ -22,37 +22,66 @@
             <section class="mosaic-section">
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="item">
-                            <img src="../static/img/activites/entretien.jpg" width="591" height="478" alt="Entretien"/>
-                            <span class="title">Entretien</span>
+                        <div class="item grey">
+                            <img src="../static/img/activites/entretien.jpg" width="595" height="495" alt="Entretien"/>
+                            <ul class="list-item">
+                                <li>Entretien Parc et Jardin</li>
+                                <li>Remise en état / débroussayage</li>
+                                <li>Taille des végétaux</li>
+                                <li>Soins des pelouses</li>
+                            </ul>
                         </div>
-                        <div class="item">
-                            <img src="../static/img/activites/maconnerie-paysagere.jpg" width="591" height="478" alt="Maçonnerie paysagère"/>
-                            <span class="title">Maçonnerie paysagère</span>
+                        <div class="item grey">
+                            <img src="../static/img/activites/terrasse.jpg" width="595" height="495" alt="Terrasse Bois / composite"/>
+                            <ul class="list-item">
+                                <li>Terrasse Bois / Composite</li>
+                                <li>Palissade / Claustra</li>
+                                <li>Clôture grillagée</li>
+                                <li>Aménagement et entretien de terrasse</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <div class="item">
-                            <img src="../static/img/activites/creation.jpg" width="591" height="478" alt="Création"/>
-                            <span class="title">Création</span>
+                        <div class="item grey">
+                            <img src="../static/img/activites/creation.jpg" width="595" height="495" alt="Création et aménagement de jardin"/>
+                            <ul class="list-item">
+                                <li>Création et Aménagement de jardin</li>
+                                <li>Engazement (semi et placage)</li>
+                                <li>Gazon synthétique</li>
+                                <li>Plantation</li>
+                                <li>Massif / Rocaille</li>
+                                <li>Apport et livraison de terre, terreau, terre de bruyère, ...</li>
+                            </ul>
                         </div>
-                        <div class="item">
-                            <img src="../static/img/activites/eclairage.jpg" width="591" height="478" alt="Eclairage extérieur"/>
-                            <span class="title">Eclairage extérieur</span>
+                        <div class="item grey">
+                            <img src="../static/img/activites/eclairage-exterieur.jpg" width="595" height="495" alt="Eclairage extérieur"/>
+                            <ul class="list-item">
+                                <li>Eclairage extérieur</li>
+                                <li>Petite maçonnerie paysagère</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="row">
                             <div class="col-md-6 col-lg-12">
-                                <div class="item">
-                                    <img src="../static/img/activites/elagage.jpg" width="591" height="478" alt="Elagage"/>
-                                    <span class="title">Elagage</span>
+                                <div class="item grey">
+                                    <img src="../static/img/activites/elagage.jpg" width="456" height="379" alt="Elagage"/>
+                                    <ul class="list-item">
+                                        <li>Elagage</li>
+                                        <li>Abattage</li>
+                                        <li>Grignotage / désouchage</li>
+                                        <li>Soins des arbres</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-12">
-                                <div class="item">
-                                    <img src="../static/img/activites/arrosage.jpg" width="591" height="478" alt="Arrosage"/>
-                                    <span class="title">Arrosage</span>
+                                <div class="item grey">
+                                    <img src="../static/img/activites/arrosage.jpg" width="595" height="495" alt="Arrosage"/>
+                                    <ul class="list-item">
+                                        <li>Arrosage</li>
+                                        <li>Réalisation et entretien de bassin</li>
+                                        <li>Nettoyage à haute pression</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
