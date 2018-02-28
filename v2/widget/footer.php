@@ -11,7 +11,7 @@
     </div>
     <div class="right">
         <img class="baseline" src="/v2/static/img/baseline.png" width="360" height="30" alt="Notre créativité à votre service"/>
-        <span class="mention">+ de 10 ans d'expérience</span>
+        <span class="mention">" + de 10 ans d'expérience "</span>
         <div class="unep">
             <a href="http://www.lesentreprisesdupaysage.fr/membres-unep-nos-engagements" target="_blank"><img src="/v2/static/img/logo-unep.png" width="756" height="122" alt="Adhérent Unep"></a>
         </div>
