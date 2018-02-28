@@ -17,7 +17,9 @@
 
     <div class="main-wrapper">
         <div class="container">
-            <h1>Création</h1>
+            <header class="section-header">
+                <h1 class="title">Création</h1>
+            </header>
 
             <section class="mosaic-section">
                 <div class="row">

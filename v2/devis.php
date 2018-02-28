@@ -102,7 +102,9 @@ if (isset($_POST['sendEmail'])) {
 
     <div class="main-wrapper">
         <div class="container">
-            <h1>Demande de devis</h1>
+            <header class="section-header">
+                <h1 class="title">Demande de devis</h1>
+            </header>
 
             <p class="text">
                 Pour toute demande de devis, merci de compléter le formulaire ci-dessous. Nous vous répondrons dans les meilleurs délais.

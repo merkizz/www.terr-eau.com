@@ -17,7 +17,9 @@
 
     <div class="main-wrapper">
         <div class="container">
-            <h1>Remise en état</h1>
+            <header class="section-header">
+                <h1 class="title">Remise en état</h1>
+            </header>
 
             <div class="img-slider" data-role="image-slider" data-width="960" data-height="720" data-position="70" data-filter="sepia(20%)">
                 <div class="img-wrapper left">

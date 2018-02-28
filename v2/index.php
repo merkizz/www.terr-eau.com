@@ -14,7 +14,9 @@
 
     <div class="main-wrapper">
         <div class="container">
-            <h1>Présentation</h1>
+            <header class="section-header">
+                <h1 class="title">Présentation</h1>
+            </header>
 
             <p class="text">
                 Depuis 2007, la société Terr'eau est au service des particuliers et des professionnels. Située à Gagny (93 Seine Saint-Denis), elle intervient sur toute l'Ile-de-France.
