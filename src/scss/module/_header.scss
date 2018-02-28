@@ -51,6 +51,7 @@
 
 				.nav-text {
 					color: $green;
+					padding: 0 10px;
 
 					@media (max-width: 900px) {
 						padding: 0;
@@ -69,8 +70,8 @@
 				overflow: hidden;
 				height: $main-header-height;
 				line-height: $main-header-height;
-				padding: 0 10px;
-				font-size: 14px;
+				padding: 0 20px;
+				font-size: 16px;
 				text-transform: uppercase;
 				text-align: center;
 				color: $green;
