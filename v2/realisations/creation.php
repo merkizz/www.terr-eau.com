@@ -3,7 +3,7 @@
 <head>
     <?php
     $pageTitle = 'En images : Création de jardin, terrasse... - Sarl Terr\'Eau';
-    $pageDescription = 'Découvrez en images quelques exemples de création par nos équipes: jardin, plantation d\'arbres et arbustes, terrasse, palissade, éclairage...';
+    $pageDescription = 'Découvrez en images quelques exemples de création par nos équipes : jardin, plantation d\'arbres et arbustes, terrasse, palissade, éclairage...';
     include '../widget/includes.php';
     ?>
 </head>

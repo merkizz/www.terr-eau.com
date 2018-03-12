@@ -2,14 +2,14 @@
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'Sarl Terr\'Eau - Jardiniers paysagistes Seine-Saint-Denis';
-    $pageDescription = 'Aménagement et entretien jardin et espaces verts. Sarl Terr\'Eau est à votre service pour la création et la réalisation de vos jardins en Ile-de-France.';
+    $pageTitle = 'Sarl Terr\'Eau - Jardiniers paysagistes en Seine-Saint-Denis';
+    $pageDescription = 'Aménagement et entretien des jardins et espaces verts. Située à Gagny (93), Sarl Terr\'Eau est à votre service pour la création et l\'entretien de vos jardins en Ile-de-France. Nos jardiniers paysagistes vous accompagnent toute l\'année dans la réalisation de vos projets à partir de devis gratuits personnalisés.';
     include 'widget/includes.php';
     ?>
 </head>
 <body>
     <?php include 'widget/header.php'; ?>
-    Sarl Terr'Eau - Jardiniers paysagistes en Seine-Saint-Denis
+
     <div class="main-wrapper">
         <div class="container">
             <header class="section-header">

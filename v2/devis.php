@@ -88,7 +88,7 @@ if (isset($_POST['sendEmail'])) {
 <head>
     <?php
     $pageTitle = 'Demande de devis gratuit - Sarl Terr\'Eau';
-    $pageDescription = 'Nous réalisons des devis gratuits personnalisés et précis. Complétez le formulaire et nous étudierons votre demande dans les plus meilleurs délais.';
+    $pageDescription = 'Afin de vous accompagner dans vos projets, nous réalisons des devis gratuits personnalisés et précis. Nos jardiniers paysagistes sont à votre écoute pour vous conseiller et vous servir. Complétez le formulaire de demande et nous vous répondrons dans les meilleurs délais.';
     include 'widget/includes.php';
     ?>
 </head>
