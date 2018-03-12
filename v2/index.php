@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <title>Terr'Eau - Jardiniers paysagistes en Seine-Saint-Denis, entretien des espaces verts</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
-
-    <?php include 'widget/includes.php'; ?>
+    <?php
+    $pageTitle = 'Sarl Terr\'Eau - Jardiniers paysagistes Seine-Saint-Denis';
+    $pageDescription = 'Aménagement et entretien jardin et espaces verts. Sarl Terr\'Eau est à votre service pour la création et la réalisation de vos jardins en Ile-de-France.';
+    include 'widget/includes.php';
+    ?>
 </head>
 <body>
     <?php include 'widget/header.php'; ?>
-
+    Sarl Terr'Eau - Jardiniers paysagistes en Seine-Saint-Denis
     <div class="main-wrapper">
         <div class="container">
             <header class="section-header">

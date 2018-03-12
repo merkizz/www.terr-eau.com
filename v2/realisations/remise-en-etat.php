@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <title>Nos réalisations - Terr'Eau</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
-
-    <?php include '../widget/includes.php'; ?>
+    <?php
+    $pageTitle = 'En images : Remise en état des espaces verts - Sarl Terr\'Eau';
+    $pageDescription = 'Découvrez en images quelques exemples de remise en état par nos équipes. Photos avant / après.';
+    include '../widget/includes.php';
+    ?>
 </head>
 <body>
     <?php

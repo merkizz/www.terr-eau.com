@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <title>Nous contacter - Terr'Eau</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
-
-    <?php include 'widget/includes.php'; ?>
+    <?php
+    $pageTitle = 'Nous contacter : adresse et coordonnées - Sarl Terr\'Eau';
+    $pageDescription = 'La société Sarl Terr\'Eau est basée à Gagny (Seine-Saint-Denis 93). Contactez-nous, nous sommes à votre écoute pour vous servir et vous conseiller.';
+    include 'widget/includes.php';
+    ?>
 </head>
 <body>
     <?php

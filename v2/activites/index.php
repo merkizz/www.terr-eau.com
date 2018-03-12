@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <title>Nos activités - Terr'Eau</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
-
-    <?php include '../widget/includes.php'; ?>
+    <?php
+    $pageTitle = 'Nos activités et compétences - Sarl Terr\'Eau';
+    $pageDescription = 'Découvrez nos services: entretien, remise en état, création et aménagement de jardin, élagage, abattage, débroussayage, taille, gazon, plantation, nettoyage...';
+    include '../widget/includes.php';
+    ?>
 </head>
 <body>
     <?php
@@ -48,7 +46,7 @@
                             <img src="../static/img/activites/creation.jpg" width="595" height="495" alt="Création et aménagement de jardin"/>
                             <ul class="list-item">
                                 <li>Création et Aménagement de jardin</li>
-                                <li>Engazement (semi et placage)</li>
+                                <li>Engazonnement (semi et plaquage)</li>
                                 <li>Gazon synthétique</li>
                                 <li>Plantation</li>
                                 <li>Massif / Rocaille</li>
@@ -71,7 +69,7 @@
                                     <ul class="list-item">
                                         <li>Elagage</li>
                                         <li>Abattage</li>
-                                        <li>Grignotage / désouchage</li>
+                                        <li>Grignotage / dessouchage</li>
                                         <li>Soins des arbres</li>
                                     </ul>
                                 </div>

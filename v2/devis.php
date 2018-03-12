@@ -86,13 +86,11 @@ if (isset($_POST['sendEmail'])) {
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
-    <title>Demande de devis - Terr'Eau</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="jardiniers paysagistes seine saint denis,entretien de jardins seine saint denis,création de jardin seine saint denis">
-
-    <?php include 'widget/includes.php'; ?>
+    <?php
+    $pageTitle = 'Demande de devis gratuit - Sarl Terr\'Eau';
+    $pageDescription = 'Nous réalisons des devis gratuits personnalisés et précis. Complétez le formulaire et nous étudierons votre demande dans les plus meilleurs délais.';
+    include 'widget/includes.php';
+    ?>
 </head>
 <body>
     <?php
