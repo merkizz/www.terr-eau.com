@@ -2,7 +2,7 @@
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'Nos activités et compétences - Sarl Terr\'Eau';
+    $pageTitle = 'Nos activités et compétences | Sarl Terr\'Eau';
     $pageDescription = 'Découvrez nos activités et compétences : entretien parc et jardin, remise en état, création de jardin, élagage, abattage, débroussayage, taille, engazonnemment, plantation, terrasse, éclairage extérieur... Nos prestations sont réalisées avec sérieux et compétence dans le respect des délais et de l\'environnement.';
     include '../widget/includes.php';
     ?>
