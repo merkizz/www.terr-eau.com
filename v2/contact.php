@@ -26,7 +26,7 @@
             </p>
             <section class="contact-section">
                 <div class="contact-section-text">
-                    <img class="logo" src="<?php echo $staticRoot ?>/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
+                    <img class="logo" src="<?=$staticRoot?>/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
                     <br>50, Avenue René Faugeras
                     <br>93220 GAGNY
                     <br>
@@ -41,6 +41,6 @@
         <?php include 'widget/footer.php'; ?>
     </div>
 
-    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
+    <script src="<?=$staticRoot?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

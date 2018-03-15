@@ -25,13 +25,13 @@
                 <br>
                 <br>Sur le terrain, les 2 cogérants sont à votre écoute pour vous servir et vous conseiller.
                 <br>
-                <br>Nos études et nos prestations, à partir d'un <a class="link" href="<?php echo $contextRoot ?>/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
+                <br>Nos études et nos prestations, à partir d'un <a class="link" href="<?=$contextRoot?>/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
             </p>
         </div>
 
         <?php include 'widget/footer.php'; ?>
     </div>
 
-    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
+    <script src="<?=$staticRoot?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

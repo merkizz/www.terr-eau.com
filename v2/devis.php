@@ -110,7 +110,7 @@ if (isset($_POST['sendEmail'])) {
                 Pour toute demande de devis, merci de compléter le formulaire ci-dessous. Nous vous répondrons dans les meilleurs délais.
             </p>
             <section class="form-section">
-                <form action="<?php echo $contextRoot ?>/devis" method="post">
+                <form action="<?=$contextRoot?>/devis" method="post">
                     <div class="form-group row">
                         <div class="col-md-12">
                             <label for="name">Nom *</label>
@@ -169,6 +169,6 @@ if (isset($_POST['sendEmail'])) {
         <?php include 'widget/footer.php'; ?>
     </div>
 
-    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
+    <script src="<?=$staticRoot?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

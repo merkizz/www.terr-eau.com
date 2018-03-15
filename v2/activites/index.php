@@ -95,6 +95,6 @@
         <?php include '../widget/footer.php'; ?>
     </div>
 
-    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
+    <script src="<?=$staticRoot?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>
