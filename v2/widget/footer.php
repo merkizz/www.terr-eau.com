@@ -1,6 +1,6 @@
 <div class="footer">
     <div class="left">
-        <img class="logo" src="/v2/static/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
+        <img class="logo" src="<?php echo $staticRoot ?>/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
         <div class="address">
             50, Avenue René Faugeras
             <br> 93220 GAGNY
@@ -10,10 +10,10 @@
         </div>
     </div>
     <div class="right">
-        <img class="baseline" src="/v2/static/img/baseline.png" width="360" height="30" alt="Notre créativité à votre service"/>
+        <img class="baseline" src="<?php echo $staticRoot ?>/img/baseline.png" width="360" height="30" alt="Notre créativité à votre service"/>
         <span class="mention">" + de 10 ans d'expérience "</span>
         <div class="unep">
-            <a href="http://www.lesentreprisesdupaysage.fr/membres-unep-nos-engagements" target="_blank"><img src="/v2/static/img/logo-unep.png" width="756" height="122" alt="Adhérent Unep"></a>
+            <a href="http://www.lesentreprisesdupaysage.fr/membres-unep-nos-engagements" target="_blank"><img src="<?php echo $staticRoot ?>/img/logo-unep.png" width="756" height="122" alt="Adhérent Unep"></a>
         </div>
     </div>
 </div>

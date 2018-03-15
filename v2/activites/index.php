@@ -1,10 +1,12 @@
+<?php include '../widget/includes.php'; ?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
     <?php
     $pageTitle = 'Nos activités et compétences | Sarl Terr\'Eau';
     $pageDescription = 'Découvrez nos activités et compétences : entretien parc et jardin, remise en état, création de jardin, élagage, abattage, débroussayage, taille, engazonnemment, plantation, terrasse, éclairage extérieur... Nos prestations sont réalisées avec sérieux et compétence dans le respect des délais et de l\'environnement.';
-    include '../widget/includes.php';
+    include '../widget/head.php';
     ?>
 </head>
 <body>
@@ -93,6 +95,6 @@
         <?php include '../widget/footer.php'; ?>
     </div>
 
-    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
+    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,10 +1,12 @@
+<?php include '../widget/includes.php'; ?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
     <?php
     $pageTitle = 'En images : Engazonnement et arrosage | Sarl Terr\'Eau';
     $pageDescription = 'Découvrez en images les travaux d\'engazonnement par nos équipes : semi, plaquage, gazon synthétique, arrosage.';
-    include '../widget/includes.php';
+    include '../widget/head.php';
     ?>
 </head>
 <body>
@@ -45,6 +47,6 @@
         <?php include '../widget/footer.php'; ?>
     </div>
 
-    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
+    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

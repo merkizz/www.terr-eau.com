@@ -1,10 +1,12 @@
+<?php include 'widget/includes.php'; ?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
     <?php
     $pageTitle = 'Sarl Terr\'Eau | Jardiniers paysagistes en Seine-Saint-Denis';
     $pageDescription = 'Aménagement et entretien des jardins et espaces verts. Située à Gagny (93), Sarl Terr\'Eau est à votre service pour la création et l\'entretien de vos jardins en Ile-de-France. Nos jardiniers paysagistes vous accompagnent toute l\'année dans la réalisation de vos projets à partir de devis gratuits personnalisés.';
-    include 'widget/includes.php';
+    include 'widget/head.php';
     ?>
 </head>
 <body>
@@ -23,13 +25,13 @@
                 <br>
                 <br>Sur le terrain, les 2 cogérants sont à votre écoute pour vous servir et vous conseiller.
                 <br>
-                <br>Nos études et nos prestations, à partir d'un <a class="link" href="/v2/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
+                <br>Nos études et nos prestations, à partir d'un <a class="link" href="<?php echo $contextRoot ?>/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
             </p>
         </div>
 
         <?php include 'widget/footer.php'; ?>
     </div>
 
-    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
+    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

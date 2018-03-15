@@ -1,6 +1,8 @@
+<?php include 'widget/includes.php'; ?>
+
 <?php
 if (isset($_POST['sendEmail'])) {
-    if ($_SERVER['HTTP_REFERER'] != 'http://www.terr-eau.com/v2/devis') {
+    if ($_SERVER['HTTP_REFERER'] != $contextRoot.'/devis') {
         exit("Opération non autorisée");
     }
 
@@ -89,7 +91,7 @@ if (isset($_POST['sendEmail'])) {
     <?php
     $pageTitle = 'Demande de devis gratuit | Sarl Terr\'Eau';
     $pageDescription = 'Afin de vous accompagner dans vos projets, nous réalisons des devis gratuits personnalisés et précis. Nos jardiniers paysagistes sont à votre écoute pour vous conseiller et vous servir. Complétez le formulaire de demande et nous vous répondrons dans les meilleurs délais.';
-    include 'widget/includes.php';
+    include 'widget/head.php';
     ?>
 </head>
 <body>
@@ -108,7 +110,7 @@ if (isset($_POST['sendEmail'])) {
                 Pour toute demande de devis, merci de compléter le formulaire ci-dessous. Nous vous répondrons dans les meilleurs délais.
             </p>
             <section class="form-section">
-                <form action="/v2/devis" method="post">
+                <form action="<?php echo $contextRoot ?>/devis" method="post">
                     <div class="form-group row">
                         <div class="col-md-12">
                             <label for="name">Nom *</label>
@@ -167,6 +169,6 @@ if (isset($_POST['sendEmail'])) {
         <?php include 'widget/footer.php'; ?>
     </div>
 
-    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
+    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>

@@ -1,10 +1,12 @@
+<?php include '../widget/includes.php'; ?>
+
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
     <?php
     $pageTitle = 'Nos réalisations en images | Sarl Terr\'Eau';
     $pageDescription = 'Découvrez en images quelques exemples de réalisations par nos équipes : remise en état des espaces verts, engazonnement, création de jardin, pose de terrasse, élagage, abattage. Visionnez les photos avant et après le passage de nos jardiniers paysagistes.';
-    include '../widget/includes.php';
+    include '../widget/head.php';
     ?>
 </head>
 <body>
@@ -22,19 +24,19 @@
             <section class="mosaic-section">
                 <div class="row">
                     <div class="col-sm-12">
-                        <a href="/v2/realisations/remise-en-etat" class="item">
+                        <a href="<?php echo $contextRoot ?>/realisations/remise-en-etat" class="item">
                             <img src="../static/img/realisations/remise-en-etat-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Remise en état</span>
                         </a>
-                        <a href="/v2/realisations/gazon" class="item">
+                        <a href="<?php echo $contextRoot ?>/realisations/gazon" class="item">
                             <img src="../static/img/realisations/gazon-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Gazon</span>
                         </a>
-                        <a href="/v2/realisations/creation" class="item">
+                        <a href="<?php echo $contextRoot ?>/realisations/creation" class="item">
                             <img src="../static/img/realisations/creation-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Création</span>
                         </a>
-                        <a href="/v2/realisations/elagage-abattage" class="item">
+                        <a href="<?php echo $contextRoot ?>/realisations/elagage-abattage" class="item">
                             <img src="../static/img/realisations/elagage-abattage-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Elagage / Abattage</span>
                         </a>
@@ -46,6 +48,6 @@
         <?php include '../widget/footer.php'; ?>
     </div>
 
-    <script src="/v2/static/js/script.min.js" type="text/javascript"></script>
+    <script src="<?php echo $staticRoot ?>/js/script.min.js" type="text/javascript"></script>
 </body>
 </html>
