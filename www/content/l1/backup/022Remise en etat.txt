@@ -1,9 +1,0 @@
-<h2>Jardinier paysagiste en Seine Saint Denis</h2>
-<p style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"font-size: 14px\"><span style=\"color: rgb(51,51,51)\">Votre&nbsp;jardin est rest&eacute; &agrave; l\'abandon (longue absence, nouvel achat de terrain). Nous vous proposons d\'&eacute;tablir avec vous un devis afin d\'intervenir ponctuellement pour :</span></span></span></p>
-<ul>
-    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"font-size: 14px\">un d&eacute;broussaillage </span></span></li>
-    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"font-size: 14px\">une tonte </span></span></li>
-    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"font-size: 14px\">la taille des arbustes et des haies </span></span></li>
-    <li style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"font-size: 14px\">le b&ecirc;chage et le d&eacute;sherbage des massifs </span></span></li>
-</ul>
-<p style=\"text-align: justify\"><span style=\"font-family: Trebuchet MS\"><span style=\"font-size: 14px\">ainsi&nbsp;vous retrouverez votre jardin propre&nbsp;et harmonieux.</span></span></p>
