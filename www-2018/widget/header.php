@@ -1,14 +1,14 @@
 <header class="main-header" data-role="main-header">
     <nav class="main-nav">
         <div class="nav-item nav-toggler" data-role="nav-toggler">
-            <span class="nav-text">
+            <div class="nav-text">
                 <div class="burger">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
                 </div>
-            </span>
+            </div>
         </div>
         <div class="nav-item logo">
             <a class="nav-text" href="<?=$contextRoot?>" title="Sarl Terr'eau">

@@ -169,6 +169,6 @@ if (isset($_POST['sendEmail'])) {
         <?php include 'widget/footer.php'; ?>
     </div>
 
-    <script src="<?=$staticRoot?>/js/script.min.js" type="text/javascript"></script>
+    <script src="<?=$staticRoot?>/js/script.min.js"></script>
 </body>
 </html>
