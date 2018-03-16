@@ -20,13 +20,13 @@ if (isset($_POST['sendEmail'])) {
         'X-Mailer: PHP/' . phpversion();
 
     $to         = "thomas.piseth.lay@gmail.com";
-    $subject    = "Terr'Eau - Demande de devis";
+    $subject    = "Sarl Terr'eau - Demande de devis";
     $body       =
     "
     <!DOCTYPE html>
     <html lang=\"fr-FR\">
     <head>
-        <title>Terr'Eau - Demande de devis</title>
+        <title>Sarl Terr'eau - Demande de devis</title>
     </head>
     <body bgcolor=\"#efefef\" leftmargin=\"0\" topmargin=\"0\" marginwidth=\"0\" marginheight=\"0\">
         <table width=\"700\" bgcolor=\"#ffffff\" border=\"0\" cellspacing=\"0\" cellpadding=\"5\" align=\"center\" style=\"margin-top: 30px; padding: 20px\">
@@ -34,10 +34,10 @@ if (isset($_POST['sendEmail'])) {
                 <td colspan=\"2\">
                     <table width=\"100%\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\">
                         <td width=\"110\">
-                            <img src=\"http://www.terr-eau.com/content/pics/logo.gif\" width=\"110\" height=\"83\" alt=\"Terr'Eau\">
+                            <img src=\"".$staticRoot."/img/logo-200x200.jpg\" width=\"110\" height=\"110\" alt=\"Sarl Terr'eau\">
                         </td>
                         <td width=\"590\" valign=\"middle\" style=\"text-align: center;\">
-                            <font face=\"Arial, Verdana, Helvetica\" style=\"color: #017601; font-size: 26px;\"><strong>DEMANDE DE DEVIS</strong></font>
+                            <font face=\"Arial, Verdana, Helvetica\" style=\"color: #4a9c16; font-size: 26px;\"><strong>DEMANDE DE DEVIS</strong></font>
                         </td>
                     </table>
                 </td>
@@ -80,7 +80,7 @@ if (isset($_POST['sendEmail'])) {
 
     mail($to, $subject, $body, $headers);
 ?>
-    <script>alert("Votre demande de devis a été envoyée à Terr'Eau");</script>
+    <script>alert("Votre demande de devis a été envoyée à Sarl Terr'eau");</script>
 <?php
 }
 ?>
@@ -89,7 +89,7 @@ if (isset($_POST['sendEmail'])) {
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'Demande de devis gratuit | Sarl Terr\'Eau';
+    $pageTitle = 'Demande de devis gratuit | Sarl Terr\'eau';
     $pageDescription = 'Afin de vous accompagner dans vos projets, nous réalisons des devis gratuits personnalisés et précis. Nos jardiniers paysagistes sont à votre écoute pour vous conseiller et vous servir. Complétez le formulaire de demande et nous vous répondrons dans les meilleurs délais.';
     include 'widget/head.php';
     ?>

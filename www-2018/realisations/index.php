@@ -4,7 +4,7 @@
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'Nos réalisations en images | Sarl Terr\'Eau';
+    $pageTitle = 'Nos réalisations en images | Sarl Terr\'eau';
     $pageDescription = 'Découvrez en images quelques exemples de réalisations par nos équipes : remise en état des espaces verts, engazonnement, création de jardin, pose de terrasse, élagage, abattage. Visionnez les photos avant et après le passage de nos jardiniers paysagistes.';
     include '../widget/head.php';
     ?>

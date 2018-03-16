@@ -4,7 +4,7 @@
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'En images : Remise en état des espaces verts | Sarl Terr\'Eau';
+    $pageTitle = 'En images : Remise en état des espaces verts | Sarl Terr\'eau';
     $pageDescription = 'Découvrez en images quelques exemples de remise en état par nos équipes. Photos avant / après.';
     include '../widget/head.php';
     ?>

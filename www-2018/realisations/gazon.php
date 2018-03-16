@@ -4,7 +4,7 @@
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'En images : Engazonnement et arrosage | Sarl Terr\'Eau';
+    $pageTitle = 'En images : Engazonnement et arrosage | Sarl Terr\'eau';
     $pageDescription = 'Découvrez en images les travaux d\'engazonnement par nos équipes : semi, plaquage, gazon synthétique, arrosage.';
     include '../widget/head.php';
     ?>

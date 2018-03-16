@@ -1,8 +1,13 @@
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
 
 <title><?=$pageTitle?></title>
 <meta name="description" content="<?=$pageDescription?>">
-<meta name="keywords" content="jardinier, paysagiste, seine-saint-denis, entretien des espaces verts, création de jardin">
+<?php if (isset($pageKeywords)) { ?>
+<meta name="keywords" content="<?=$pageKeywords?>">
+<?php } ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="robots" content="index,follow" />
+
+<link type="text/plain" rel="author" href="<?=$contextRoot?>/humans.txt" />
 
 <link href="<?=$staticRoot?>/css/style.css" rel="stylesheet" type="text/css" />

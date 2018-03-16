@@ -4,7 +4,7 @@
 <html lang="fr-FR">
 <head>
     <?php
-    $pageTitle = 'En images : Elagage et abattage d\'arbres | Sarl Terr\'Eau';
+    $pageTitle = 'En images : Elagage et abattage d\'arbres | Sarl Terr\'eau';
     $pageDescription = 'Découvrez en images quelques exemples d\'élagage et abattage par nos équipes.';
     include '../widget/head.php';
     ?>
