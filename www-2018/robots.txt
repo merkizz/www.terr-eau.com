@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /static/
-Disallow: /widget/
-Sitemap: http://www.terr-eau.com/sitemap.xml
