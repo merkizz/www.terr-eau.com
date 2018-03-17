@@ -24,6 +24,8 @@
 
     <div class="main-wrapper">
         <div class="container">
+            <?php include 'widget/banner.php'; ?>
+
             <header class="section-header">
                 <h1 class="title">Présentation</h1>
             </header>
@@ -38,7 +40,7 @@
                 <br>Nos études et nos prestations, à partir d'un <a class="link" href="<?=$contextRoot?>/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
             </p>
 
-            <?php include 'widget/promo.php'; ?>
+            <?php include 'widget/pave.php'; ?>
         </div>
 
         <?php include 'widget/footer.php'; ?>

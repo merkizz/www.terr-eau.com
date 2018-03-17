@@ -17,6 +17,8 @@
 
     <div class="main-wrapper">
         <div class="container">
+            <?php include '../widget/banner.php'; ?>
+
             <header class="section-header">
                 <h1 class="title">Nos réalisations</h1>
             </header>
@@ -44,7 +46,7 @@
                 </div>
             </section>
 
-            <?php include '../widget/promo.php'; ?>
+            <?php include '../widget/pave.php'; ?>
         </div>
 
         <?php include '../widget/footer.php'; ?>

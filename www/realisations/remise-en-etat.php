@@ -17,6 +17,8 @@
 
     <div class="main-wrapper">
         <div class="container">
+            <?php include '../widget/banner.php'; ?>
+
             <header class="section-header">
                 <h1 class="title">Remise en état</h1>
             </header>
@@ -66,7 +68,7 @@
                 <input type="range" class="slider-range" min="0" max="100" step="0.01">
             </div>
 
-            <?php include '../widget/promo.php'; ?>
+            <?php include '../widget/pave.php'; ?>
         </div>
 
         <?php include '../widget/footer.php'; ?>

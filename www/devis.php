@@ -102,6 +102,8 @@ if (isset($_POST['sendEmail'])) {
 
     <div class="main-wrapper">
         <div class="container">
+            <?php include 'widget/banner.php'; ?>
+
             <header class="section-header">
                 <h1 class="title">Demande de devis</h1>
             </header>
@@ -165,7 +167,7 @@ if (isset($_POST['sendEmail'])) {
                 </form>
             </section>
 
-            <?php include 'widget/promo.php'; ?>
+            <?php include 'widget/pave.php'; ?>
         </div>
 
         <?php include 'widget/footer.php'; ?>

@@ -17,6 +17,8 @@
 
     <div class="main-wrapper">
         <div class="container">
+            <?php include 'widget/banner.php'; ?>
+
             <header class="section-header">
                 <h1 class="title">Nous contacter</h1>
             </header>
@@ -37,7 +39,7 @@
                 <iframe class="contact-section-map" width="450" height="400" marginheight="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10497.54434965964!2d2.564956!3d48.869916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92f8ddcacd9219a9!2sSARL+TERR&#39;EAU!5e0!3m2!1sfr!2sfr!4v1520881182702" frameborder="0" marginwidth="0" scrolling="no"></iframe>
             </section>
 
-            <?php include 'widget/promo.php'; ?>
+            <?php include 'widget/pave.php'; ?>
         </div>
 
         <?php include 'widget/footer.php'; ?>
