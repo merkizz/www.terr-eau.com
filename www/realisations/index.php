@@ -25,24 +25,26 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <a href="<?=$contextRoot?>/realisations/remise-en-etat" class="item">
-                            <img src="../static/img/realisations/remise-en-etat-879x440.jpg" width="879" height="440" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/remise-en-etat-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Remise en état</span>
                         </a>
                         <a href="<?=$contextRoot?>/realisations/gazon" class="item">
-                            <img src="../static/img/realisations/gazon-879x440.jpg" width="879" height="440" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/gazon-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Gazon</span>
                         </a>
                         <a href="<?=$contextRoot?>/realisations/creation" class="item">
-                            <img src="../static/img/realisations/creation-879x440.jpg" width="879" height="440" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/creation-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Création</span>
                         </a>
                         <a href="<?=$contextRoot?>/realisations/elagage-abattage" class="item">
-                            <img src="../static/img/realisations/elagage-abattage-879x440.jpg" width="879" height="440" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/elagage-abattage-879x440.jpg" width="879" height="440" alt=""/>
                             <span class="tag">Elagage / Abattage</span>
                         </a>
                     </div>
                 </div>
             </section>
+
+            <?php include '../widget/promo.php'; ?>
         </div>
 
         <?php include '../widget/footer.php'; ?>

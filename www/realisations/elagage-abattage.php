@@ -25,26 +25,28 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="item">
-                            <img src="../static/img/realisations/abattage/1.jpg" width="456" height="789" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/abattage/1.jpg" width="456" height="789" alt=""/>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="item">
-                            <img src="../static/img/realisations/abattage/2.jpg" width="456" height="789" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/abattage/2.jpg" width="456" height="789" alt=""/>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="item">
-                            <img src="../static/img/realisations/abattage/3.jpg" width="456" height="789" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/abattage/3.jpg" width="456" height="789" alt=""/>
                         </div>
                     </div>
                     <div class="col-sm-12">
                         <div class="item">
-                            <img src="../static/img/realisations/abattage/4.jpg" width="879" height="657" alt=""/>
+                            <img src="<?=$staticRoot?>/img/realisations/abattage/4.jpg" width="879" height="657" alt=""/>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <?php include '../widget/promo.php'; ?>
         </div>
 
         <?php include '../widget/footer.php'; ?>

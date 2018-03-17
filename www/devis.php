@@ -164,6 +164,8 @@ if (isset($_POST['sendEmail'])) {
                     </div>
                 </form>
             </section>
+
+            <?php include 'widget/promo.php'; ?>
         </div>
 
         <?php include 'widget/footer.php'; ?>

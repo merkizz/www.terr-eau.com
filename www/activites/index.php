@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="item grey">
-                            <img src="../static/img/activites/entretien.jpg" width="595" height="495" alt="Entretien"/>
+                            <img src="<?=$staticRoot?>/img/activites/entretien.jpg" width="595" height="495" alt="Entretien"/>
                             <ul class="list-item">
                                 <li>Entretien Parc et Jardin</li>
                                 <li>Remise en état / débroussayage</li>
@@ -34,7 +34,7 @@
                             </ul>
                         </div>
                         <div class="item grey">
-                            <img src="../static/img/activites/terrasse.jpg" width="595" height="495" alt="Terrasse Bois / composite"/>
+                            <img src="<?=$staticRoot?>/img/activites/terrasse.jpg" width="595" height="495" alt="Terrasse Bois / composite"/>
                             <ul class="list-item">
                                 <li>Terrasse Bois / Composite</li>
                                 <li>Palissade / Claustra</li>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="item grey">
-                            <img src="../static/img/activites/creation.jpg" width="595" height="495" alt="Création et aménagement de jardin"/>
+                            <img src="<?=$staticRoot?>/img/activites/creation.jpg" width="595" height="495" alt="Création et aménagement de jardin"/>
                             <ul class="list-item">
                                 <li>Création et Aménagement de jardin</li>
                                 <li>Engazonnement (semi et plaquage)</li>
@@ -56,7 +56,7 @@
                             </ul>
                         </div>
                         <div class="item grey">
-                            <img src="../static/img/activites/eclairage-exterieur.jpg" width="595" height="495" alt="Eclairage extérieur"/>
+                            <img src="<?=$staticRoot?>/img/activites/eclairage-exterieur.jpg" width="595" height="495" alt="Eclairage extérieur"/>
                             <ul class="list-item">
                                 <li>Eclairage extérieur</li>
                                 <li>Petite maçonnerie paysagère</li>
@@ -67,7 +67,7 @@
                         <div class="row">
                             <div class="col-md-6 col-lg-12">
                                 <div class="item grey">
-                                    <img src="../static/img/activites/elagage.jpg" width="456" height="379" alt="Elagage"/>
+                                    <img src="<?=$staticRoot?>/img/activites/elagage.jpg" width="456" height="379" alt="Elagage"/>
                                     <ul class="list-item">
                                         <li>Elagage</li>
                                         <li>Abattage</li>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="col-md-6 col-lg-12">
                                 <div class="item grey">
-                                    <img src="../static/img/activites/arrosage.jpg" width="595" height="495" alt="Arrosage"/>
+                                    <img src="<?=$staticRoot?>/img/activites/arrosage.jpg" width="595" height="495" alt="Arrosage"/>
                                     <ul class="list-item">
                                         <li>Arrosage</li>
                                         <li>Réalisation et entretien de bassin</li>
@@ -90,6 +90,8 @@
                     </div>
                 </div>
             </section>
+
+            <?php include '../widget/promo.php'; ?>
         </div>
 
         <?php include '../widget/footer.php'; ?>

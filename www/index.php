@@ -37,6 +37,8 @@
                 <br>
                 <br>Nos études et nos prestations, à partir d'un <a class="link" href="<?=$contextRoot?>/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
             </p>
+
+            <?php include 'widget/promo.php'; ?>
         </div>
 
         <?php include 'widget/footer.php'; ?>
