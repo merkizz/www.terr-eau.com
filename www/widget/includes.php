@@ -1,4 +1,4 @@
 <?php
-$contextRoot = 'http://www.terr-eau.com';
-$staticRoot = 'http://static.terr-eau.com';
+$contextRoot = 'https://www.terr-eau.com';
+$staticRoot = 'https://static.terr-eau.com';
 ?>
