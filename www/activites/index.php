@@ -30,7 +30,7 @@
                             <img src="<?=$staticRoot?>/img/activites/entretien.jpg" width="595" height="495" alt="Entretien"/>
                             <ul class="list-item">
                                 <li>Entretien Parc et Jardin</li>
-                                <li>Remise en état / débroussayage</li>
+                                <li>Remise en état / débroussaillage</li>
                                 <li>Taille des végétaux</li>
                                 <li>Soins des pelouses</li>
                             </ul>
