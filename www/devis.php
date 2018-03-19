@@ -19,7 +19,7 @@ if (isset($_POST['sendEmail'])) {
         'From: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
 
-    $to         = "thomas.piseth.lay@gmail.com";
+    $to         = "jardinier@terr-eau.com";
     $subject    = "Sarl Terr'eau - Demande de devis";
     $body       =
     "
