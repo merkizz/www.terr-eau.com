@@ -5,7 +5,7 @@
 <head>
     <?php
     $pageTitle = 'Nous contacter : adresse et coordonnées | Sarl Terr\'eau';
-    $pageDescription = 'Sarl Terr\'eau est située au 50 Avenue René Faugeras à Gagny (Seine-Saint-Denis 93). Téléphone : 01 49 32 00 63. Fax : 01 49 31 04 04. Email : jardinier@terr-eau.com. Contactez-nous pour toute demande, notre équipe est à votre service pour tout renseignement.';
+    $pageDescription = 'Sarl Terr\'eau est située au 50 avenue René Faugeras à Gagny (Seine-Saint-Denis 93). Téléphone : 01 49 32 00 63. Fax : 01 49 31 04 04. Email : jardinier@terr-eau.com. Contactez-nous pour toute demande, notre équipe est à votre service pour tout renseignement.';
     include 'widget/head.php';
     ?>
 </head>
@@ -24,12 +24,12 @@
             </header>
 
             <p class="text">
-                Toute notre équipe est à votre disposition pour tout renseignement.
+                Notre équipe est à votre disposition pour tous renseignements.
             </p>
             <section class="contact-section">
                 <div class="contact-section-text">
                     <img class="logo" src="<?=$staticRoot?>/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
-                    <br>50, Avenue René Faugeras
+                    <br>50, avenue René Faugeras
                     <br>93220 GAGNY
                     <br>
                     <br>Tél. : 01 49 32 00 63

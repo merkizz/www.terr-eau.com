@@ -11,7 +11,7 @@
     ?>
 
     <meta name="google-site-verification" content="w5wYi4iqtz0H6MLeq0iSbtOu7SqmWc1ThXDPv-jce2M" />
-    
+
     <meta property="og:site_name" content="Sarl Terr'eau" />
     <meta property="og:url" content="<?=$contextRoot?>" />
     <meta property="og:title" content="Sarl Terr'eau, jardinier paysagiste en Seine-Saint-Denis" />
@@ -43,11 +43,11 @@
             </section>
 
             <p class="text">
-                Depuis 2007, la société Sarl Terr'eau est au service des particuliers et des professionnels. Située à Gagny (93 Seine Saint-Denis), elle intervient sur toute l'Ile-de-France.
+                Depuis 2007, la société Sarl Terr'eau est au service des particuliers et des professionnels. Située à Gagny 93220 (Seine Saint-Denis), elle intervient sur toute l'Ile-de-France.
                 <br>
-                <br>Elle contribue à la réalisation de vos jardins et vous propose également de les entretenir au fil des saisons, afin qu'ils révèlent au mieux leur vraie nature.
+                <br>Elle contribue à la réalisation de vos jardins et vous propose de les entretenir au fil des saisons, pour révéler au mieux leur vraie nature.
                 <br>
-                <br>Sur le terrain, les 2 cogérants sont à votre écoute pour vous servir et vous conseiller.
+                <br>Sur le terrain, Geoffrey et Audric, les deux co-gérants, sont à votre écoute pour vous servir et vous conseiller.
                 <br>
                 <br>Nos études et nos prestations, à partir d'un <a class="link" href="<?=$contextRoot?>/devis">devis gratuit</a> personnalisé et précis, sont réalisées avec sérieux et compétences par notre équipe dans le respect des délais et de l'environnement.
             </p>

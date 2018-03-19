@@ -20,7 +20,7 @@
             <?php include '../widget/banner.php'; ?>
 
             <header class="section-header">
-                <h1 class="title">Elagage / Abattage</h1>
+                <h1 class="title">Élagage / Abattage</h1>
             </header>
 
             <section class="mosaic-section">

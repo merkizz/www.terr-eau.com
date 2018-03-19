@@ -40,7 +40,7 @@
                         </a>
                         <a href="<?=$contextRoot?>/realisations/elagage-abattage" class="item">
                             <img src="<?=$staticRoot?>/img/realisations/elagage-abattage-879x440.jpg" width="879" height="440" alt=""/>
-                            <span class="tag">Elagage / Abattage</span>
+                            <span class="tag">Élagage / Abattage</span>
                         </a>
                     </div>
                 </div>

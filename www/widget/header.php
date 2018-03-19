@@ -17,32 +17,32 @@
         </div>
         <div class="nav-list">
             <div class="nav-item<?=($current == 'activites' ? ' active' : '')?>">
-                <a class="nav-text" href="<?=$contextRoot?>/activites">Activités</a>
+                <a class="nav-text" href="<?=$contextRoot?>/activites">Nos activités</a>
             </div>
             <div class="nav-item<?=($current == 'realisations' ? ' active' : '')?>">
-                <a class="nav-text" href="<?=$contextRoot?>/realisations">Réalisations</a>
+                <a class="nav-text" href="<?=$contextRoot?>/realisations">Nos réalisations</a>
             </div>
             <div class="nav-item<?=($current == 'devis' ? ' active' : '')?>">
                 <a class="nav-text" href="<?=$contextRoot?>/devis">Demande de devis</a>
             </div>
             <div class="nav-item<?=($current == 'contact' ? ' active' : '')?>">
-                <a class="nav-text" href="<?=$contextRoot?>/contact">Contact</a>
+                <a class="nav-text" href="<?=$contextRoot?>/contact">Nous contacter</a>
             </div>
         </div>
     </nav>
     <div class="nav-slide-backdrop" data-role="nav-backdrop"></div>
     <div class="nav-slide" data-role="nav-slide">
         <div class="nav-item<?=($current == 'activites' ? ' active' : '')?>">
-            <a class="nav-text" href="<?=$contextRoot?>/activites">Activités</a>
+            <a class="nav-text" href="<?=$contextRoot?>/activites">Nos activités</a>
         </div>
         <div class="nav-item<?=($current == 'realisations' ? ' active' : '')?>">
-            <a class="nav-text" href="<?=$contextRoot?>/realisations">Réalisations</a>
+            <a class="nav-text" href="<?=$contextRoot?>/realisations">Nos réalisations</a>
         </div>
         <div class="nav-item<?=($current == 'devis' ? ' active' : '')?>">
             <a class="nav-text" href="<?=$contextRoot?>/devis">Demande de devis</a>
         </div>
         <div class="nav-item<?=($current == 'contact' ? ' active' : '')?>">
-            <a class="nav-text" href="<?=$contextRoot?>/contact">Contact</a>
+            <a class="nav-text" href="<?=$contextRoot?>/contact">Nous contacter</a>
         </div>
     </div>
 </header>
