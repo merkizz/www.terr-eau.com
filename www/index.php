@@ -10,6 +10,8 @@
     include 'widget/head.php';
     ?>
 
+    <meta name="google-site-verification" content="w5wYi4iqtz0H6MLeq0iSbtOu7SqmWc1ThXDPv-jce2M" />
+    
     <meta property="og:site_name" content="Sarl Terr'eau" />
     <meta property="og:url" content="<?=$contextRoot?>" />
     <meta property="og:title" content="Sarl Terr'eau, jardinier paysagiste en Seine-Saint-Denis" />
