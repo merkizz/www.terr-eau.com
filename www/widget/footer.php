@@ -15,5 +15,6 @@
         <div class="unep">
             <a href="http://www.lesentreprisesdupaysage.fr/membres-unep-nos-engagements" target="_blank"><img src="<?=$staticRoot?>/img/logo-unep.png" width="756" height="122" alt="Adhérent Unep"></a>
         </div>
+        <span class="certified">Agréé pour l'application en prestation de service de produits phyto pharmaceutiques N°9300006</span>
     </div>
 </div>
