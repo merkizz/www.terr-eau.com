@@ -2,8 +2,8 @@
     <div class="left">
         <img class="logo" src="<?=$staticRoot?>/img/logo-415x60.png" width="415" height="60" alt="Sarl Terr'eau"/>
         <div class="address">
-            50, avenue René Faugeras
-            <br> 93220 GAGNY
+            1 Rue Eugène Freyssinet
+            <br>77500 CHELLES
             <br>Tél. : 01 49 32 00 63
             <br>Fax : 01 49 31 04 04
             <br>Email : <a class="link" href="mailto:jardinier@terr-eau.com">jardinier@terr-eau.com</a>
