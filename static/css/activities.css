@@ -1,0 +1,37 @@
+.activities {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.activities .activity {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 0 2em 2em;
+	padding: 2em;
+	border: 1px solid #ebebeb;
+	box-shadow: 1px 1px 5px #ebebeb;
+}
+
+.activities .activity:nth-child(even) {
+	flex-direction: row-reverse;
+}
+
+.activities .activity img {
+	width: 40%;
+	height: auto;
+}
+
+.activities .activity ul {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding-left: 2em;
+	margin-left: 2em;
+}
+
+.activities .activity ul li {
+	line-height: 2.5;
+}

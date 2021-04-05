@@ -13,7 +13,7 @@
         <img class="baseline" src="<?=$staticRoot?>/img/baseline.png" width="360" height="30" alt="Notre créativité à votre service"/>
         <span class="mention">" Plus de 10 ans d'expérience "</span>
         <div class="unep">
-            <a href="http://www.lesentreprisesdupaysage.fr/membres-unep-nos-engagements" target="_blank"><img src="<?=$staticRoot?>/img/logo-unep.png" width="756" height="122" alt="Adhérent Unep"></a>
+            <a href="https://www.lesentreprisesdupaysage.fr/les-entreprises-du-paysage/faire-appel-a-une-entreprise-du-paysage/nos-adherents-s-engagent/" target="_blank"><img src="<?=$staticRoot?>/img/logo-unep.png" width="756" height="122" alt="Adhérent Unep"></a>
         </div>
         <span class="certified">Agréé pour l'application en prestation de service de produits phyto pharmaceutiques N°9300006</span>
     </div>

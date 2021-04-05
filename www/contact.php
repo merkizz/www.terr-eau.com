@@ -24,7 +24,7 @@
             </header>
 
             <p class="text">
-                Notre équipe est à votre disposition pour tous renseignements.
+                Notre équipe est à votre disposition pour tout renseignement.
             </p>
             <section class="contact-section">
                 <div class="contact-section-text">
